@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/_partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/_partials/head.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,12 +65,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="3" />
           <entry key="scss" value="7" />
           <entry key="yml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="3" />
           <entry key="SCSS" value="7" />
           <entry key="YAML" value="33" />
         </counts>
@@ -107,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/_partials/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="471">
+              <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -138,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -147,13 +148,13 @@
         <entry file="file://$PROJECT_DIR$/_site/assets/lib/font-awesome/css/font-awesome.css.map">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
           <provider editor-type-id="sourcemapFileViewerProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_variables/Muse.scss">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -189,7 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>header-inner</find>
       <find>background</find>
       <find>embed</find>
       <find>sch</find>
@@ -219,6 +219,7 @@
       <find>_brand</find>
       <find>_variables</find>
       <find>copyright</find>
+      <find>head</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,6 +239,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_sass/_variables/custom.scss" />
         <option value="$PROJECT_DIR$/_sass/_variables/Muse.scss" />
+        <option value="$PROJECT_DIR$/_includes/_partials/head.html" />
       </list>
     </option>
   </component>
@@ -376,12 +378,12 @@
       <workItem from="1548308911922" duration="1211000" />
       <workItem from="1548311854665" duration="3844000" />
       <workItem from="1548317227321" duration="1858000" />
-      <workItem from="1548320369897" duration="3902000" />
+      <workItem from="1548320369897" duration="4164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16937000" />
+    <option name="totallyTimeSpent" value="17199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/_partials/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_schemes/Pisces/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -623,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -633,13 +628,20 @@
     <entry file="file://$PROJECT_DIR$/_site/assets/lib/font-awesome/css/font-awesome.css.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_variables/Muse.scss">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/_partials/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="137" column="16" lean-forward="true" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

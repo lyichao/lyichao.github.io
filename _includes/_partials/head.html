@@ -133,3 +133,14 @@
 {% endif %}
 
 {% include _partials/head/custom-head.html %}
+
+<script>
+    (function(){
+        if('{{ page.password }}'){
+            if (prompt('请输入查看密码') !== '{{ page.password }}'){
+                alert('密码不正确,请询问博客大大');
+                history.back();
+            }
+        }
+    })();
+</script>
