@@ -438,7 +438,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC80MjMyNy8xODg3NA
 
 # Support for gitalk comments system.
 gitalk:
@@ -449,12 +449,13 @@ gitalk:
   owner: # colingpt
   admin: # colingpt
 
-# Baidu Share
+#Baidu Share
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare:
+  baidushare: true
+  type: button
 
 # Share
 #jiathis:
