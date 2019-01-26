@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_common/scaffolding/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_common/scaffolding/base.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,45 +70,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="36" />
+          <entry key="css" value="37" />
           <entry key="html" value="27" />
           <entry key="md" value="607" />
           <entry key="rnc" value="3" />
-          <entry key="scss" value="11" />
+          <entry key="scss" value="15" />
           <entry key="yml" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="36" />
+          <entry key="CSS" value="37" />
           <entry key="HTML" value="27" />
           <entry key="Markdown" value="602" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
-          <entry key="SCSS" value="11" />
+          <entry key="SCSS" value="15" />
           <entry key="YAML" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="2018-01-05-工作原理" value="1" />
-          <entry key="css" value="2" />
-          <entry key="html" value="11" />
+          <entry key="css" value="3" />
+          <entry key="html" value="12" />
           <entry key="map" value="1" />
           <entry key="md" value="68" />
-          <entry key="rnc" value="1" />
-          <entry key="scss" value="11" />
+          <entry key="rnc" value="2" />
+          <entry key="scss" value="14" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="11" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="12" />
           <entry key="Markdown" value="66" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="RNG Compact" value="1" />
-          <entry key="SCSS" value="11" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="SCSS" value="14" />
           <entry key="SourceMap" value="1" />
           <entry key="YAML" value="6" />
         </counts>
@@ -121,15 +121,69 @@
         <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+              <first_editor relative-caret-position="269">
+                <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/_schemes/Mist/_base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/_common/scaffolding/base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="476" column="15" lean-forward="true" selection-start-line="476" selection-start-column="15" selection-end-line="476" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/legacy.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -143,10 +197,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>% if theme.pace %</find>
-      <find>if theme.pace</find>
-      <find>password</find>
-      <find>prompt</find>
       <find>_brand</find>
       <find>_variables</find>
       <find>head</find>
@@ -173,6 +223,10 @@
       <find>pace-theme-flash</find>
       <find>weibo</find>
       <find>2018</find>
+      <find>margin: 0 0 25px 0;</find>
+      <find>0 0 25px 0</find>
+      <find>&lt;center&gt;</find>
+      <find>media</find>
     </findStrings>
     <replaceStrings>
       <replace>### BUG描述</replace>
@@ -187,7 +241,6 @@
         <option value="$PROJECT_DIR$/_site/categories/index.html" />
         <option value="$PROJECT_DIR$/_sass/_schemes/Pisces/_layout.scss" />
         <option value="$PROJECT_DIR$/_sass/_schemes/Mist/_posts-expanded.scss" />
-        <option value="$PROJECT_DIR$/_site/assets/css/main.css" />
         <option value="$PROJECT_DIR$/_sass/_common/components/post/post-reward.scss" />
         <option value="$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar.scss" />
         <option value="$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar-author.scss" />
@@ -228,6 +281,9 @@
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-React Native开发-集成极光推送jpush-react-native.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_site/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/_sass/_schemes/Mist/_base.scss" />
+        <option value="$PROJECT_DIR$/_sass/_common/scaffolding/base.scss" />
       </list>
     </option>
   </component>
@@ -258,13 +314,13 @@
             <path>
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +377,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42588000" />
+    <option name="totallyTimeSpent" value="43690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +392,7 @@
     <frame x="65" y="23" width="1855" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25790623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25790623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +404,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054526" side_tool="true" weight="0.17098446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,33 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/assets/lib/font-awesome/css/font-awesome.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_variables/Muse.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/test/test/2013/12/25/中文測試/index.html" />
-    <entry file="file://$PROJECT_DIR$/assets/lib/pace/pace-theme-loading-bar.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1001" selection-start-column="1001" selection-end-column="1005" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/MVP学习记录.md" />
     <entry file="file://$PROJECT_DIR$/_includes/_partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -419,13 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/android/2019/01/21/MVP学习记录/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18964">
-          <caret line="862" lean-forward="true" selection-start-line="862" selection-end-line="862" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/android/2019/01/21/MVP学习记录/index.html" />
     <entry file="file://$PROJECT_DIR$/_site/android/2019/01/25/MVP/index.html" />
     <entry file="file://$PROJECT_DIR$/_sass/_custom/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -470,16 +493,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-工作原理" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-红屏、报错记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-红屏、报错记录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/风云录/2019-1-21-2018总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -535,24 +549,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-21-MVP学习记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-开发规范.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-21-MVP学习记录.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-开发规范.md" />
     <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2019-01-16-Git删除远程分支上的某次提交.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -603,16 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-JSX语法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-JSX语法.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-FlexBox布局.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -643,16 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-组件引入必须大写.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-组件引入必须大写.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-利用自定义视图给linearLayout设置下划线.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -737,19 +717,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.en.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+          <first_editor relative-caret-position="269">
+            <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
@@ -760,6 +733,48 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="476" column="15" lean-forward="true" selection-start-line="476" selection-start-column="15" selection-end-line="476" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/legacy.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_schemes/Mist/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_common/scaffolding/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
