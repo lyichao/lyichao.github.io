@@ -3,7 +3,7 @@ title: ReactNative红屏、报错记录
 description: <center>记录在使用ReactNative日常开发中出现的红屏、报错</center>
 categories:
  - ReactNative
-tags: ReactNative
+tags: BUG/问题
 updated: 2019-01-25 17:30:08
 ---
 

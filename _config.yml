@@ -218,6 +218,8 @@ social:
   GitHub: https://github.com/lyichao
   简书: https://www.jianshu.com/u/cd92ef2564c8
   微博: https://weibo.com/2102653934
+  QQ:931667248: ''
+  微信:lyichaoo: ''
 
 
 # Social Links Icons
@@ -233,6 +235,8 @@ social_icons:
   Twitter: twitter
   微博: weibo
   简书: bookmark
+  QQ:931667248: qq
+  微信:lyichaoo: weixin
 
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: /assets/images/wechat.png
@@ -637,7 +641,7 @@ pace: true
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-big-counter
+pace_theme: pace-theme-flash
 
 # Canvas-nest
 canvas_nest: false
