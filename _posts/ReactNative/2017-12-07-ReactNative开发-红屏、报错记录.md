@@ -63,17 +63,17 @@ updated: 2019-01-25 17:30:08
 
 
 
-### BUG描述
-
-> Execution failed for task ':app:prepareGs2000_rnReactNativeImagePickerUnspecifiedLibrary'.
+> ## BUG描述
 >
-> Could not expand ZIP 'C:\Users\user\WebstormProjects\gs2000e_rn\node_modules\react-native-image-picker\android\build\outputs\aar\react-native-image-picker-release.aar'.
-
-![](https://upload-images.jianshu.io/upload_images/8154981-f9ab45f239ca58d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-#### 解决办法
-
-> 网络问题，删除node-modules目录，重新执行npm install
+> >Execution failed for task ':app:prepareGs2000_rnReactNativeImagePickerUnspecifiedLibrary'.
+> >
+> >Could not expand ZIP 'C:\Users\user\WebstormProjects\gs2000e_rn\node_modules\react-native-image-picker\android\build\outputs\aar\react-native-image-picker-release.aar'.
+>
+> ![](https://upload-images.jianshu.io/upload_images/8154981-f9ab45f239ca58d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+> ### 解决办法
+>
+> >网络问题，删除node-modules目录，重新执行npm install
 
 
 
@@ -119,7 +119,7 @@ updated: 2019-01-25 17:30:08
 
 > ## BUG描述
 >
-> >* What went wrong:
+> >\*What went wrong:
 > >
 > >A problem occurred configuring project ':app'.
 > >

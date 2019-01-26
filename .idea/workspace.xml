@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-GridView实现隔行(奇偶数)换颜色功能.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-GridView实现隔行(奇偶数)换颜色功能.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,21 +74,21 @@
         <counts>
           <entry key="css" value="36" />
           <entry key="html" value="27" />
-          <entry key="md" value="499" />
+          <entry key="md" value="606" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="11" />
-          <entry key="yml" value="97" />
+          <entry key="yml" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="36" />
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="494" />
+          <entry key="Markdown" value="601" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="11" />
-          <entry key="YAML" value="97" />
+          <entry key="YAML" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -96,22 +97,22 @@
           <entry key="css" value="2" />
           <entry key="html" value="11" />
           <entry key="map" value="1" />
-          <entry key="md" value="62" />
+          <entry key="md" value="66" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="11" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="11" />
-          <entry key="Markdown" value="60" />
+          <entry key="Markdown" value="64" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="11" />
           <entry key="SourceMap" value="1" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -119,11 +120,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md">
+        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
-                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="-2112">
+                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="43" />
               </first_editor>
               <second_editor />
             </state>
@@ -134,7 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>{% if theme.pace %}</find>
       <find>% if theme.pace %</find>
       <find>if theme.pace</find>
       <find>password</find>
@@ -164,6 +164,7 @@
       <find>post-time</find>
       <find>pace-theme-flash</find>
       <find>weibo</find>
+      <find>2018</find>
     </findStrings>
     <replaceStrings>
       <replace>### BUG描述</replace>
@@ -212,9 +213,12 @@
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-20-ReactNative基础知识-打包APk.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-22-ReactNative基础知识-ScrollView滑动冲突.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-12-10-ReactNative基础知识-屏蔽安卓返回键.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-GridView实现隔行(奇偶数)换颜色功能.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-React Native开发-集成极光推送jpush-react-native.md" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md" />
       </list>
     </option>
   </component>
@@ -251,19 +255,7 @@
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="计算机技能" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,12 +307,12 @@
       <workItem from="1548320369897" duration="4348000" />
       <workItem from="1548380591450" duration="2045000" />
       <workItem from="1548383018425" duration="11588000" />
-      <workItem from="1548469780137" duration="7283000" />
+      <workItem from="1548469780137" duration="11079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38299000" />
+    <option name="totallyTimeSpent" value="42095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +325,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1855" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25790623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,20 +352,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar-author.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_variables/custom.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -716,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="626" column="10" selection-start-line="626" selection-start-column="10" selection-end-line="626" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -740,11 +710,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="91" column="38" lean-forward="true" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2112">
+            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="43" />
           </first_editor>
           <second_editor />
         </state>
