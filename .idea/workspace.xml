@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-07-20-next-tutorial.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-25-MVP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-FlexBox布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-FlexBox布局.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-生命周期.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-生命周期.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/计算机技能/GIt/2019-01-16-Git删除远程分支上的某次提交.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/计算机技能/GIt/2019-01-16-Git删除远程分支上的某次提交.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,19 +64,20 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="37" />
           <entry key="html" value="27" />
-          <entry key="md" value="607" />
+          <entry key="md" value="610" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="15" />
           <entry key="yml" value="148" />
@@ -82,7 +87,7 @@
         <counts>
           <entry key="CSS" value="37" />
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="602" />
+          <entry key="Markdown" value="605" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="15" />
@@ -95,7 +100,7 @@
           <entry key="css" value="3" />
           <entry key="html" value="12" />
           <entry key="map" value="1" />
-          <entry key="md" value="68" />
+          <entry key="md" value="69" />
           <entry key="rnc" value="2" />
           <entry key="scss" value="14" />
           <entry key="yml" value="7" />
@@ -105,7 +110,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="12" />
-          <entry key="Markdown" value="66" />
+          <entry key="Markdown" value="67" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="14" />
@@ -159,17 +164,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_common/scaffolding/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="858">
               <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="523">
               <caret line="232" column="56" selection-start-line="232" selection-start-column="56" selection-end-line="232" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="420">
+                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -278,7 +295,6 @@
         <option value="$PROJECT_DIR$/_posts/Android/2019-01-21-Android框架-MVP学习记录.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-JSX语法.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-生命周期.md" />
-        <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-组件引入必须大写.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-20-ReactNative基础知识-打包APk.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-22-ReactNative基础知识-ScrollView滑动冲突.md" />
@@ -293,6 +309,7 @@
         <option value="$PROJECT_DIR$/_sass/_schemes/Mist/_base.scss" />
         <option value="$PROJECT_DIR$/_sass/_common/scaffolding/base.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" />
       </list>
     </option>
   </component>
@@ -313,6 +330,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,19 +341,25 @@
             <path>
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+              <item name="基础知识" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,11 +407,12 @@
       <workItem from="1548383018425" duration="11588000" />
       <workItem from="1548469780137" duration="11572000" />
       <workItem from="1548493042424" duration="338000" />
+      <workItem from="1548657843470" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44130000" />
+    <option name="totallyTimeSpent" value="44160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +427,7 @@
     <frame x="65" y="23" width="1855" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25790623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25790623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,7 +439,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054526" side_tool="true" weight="0.17098446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,17 +540,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-20-next-tutorial.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
             <caret selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -623,16 +648,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-生命周期.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
@@ -752,6 +767,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_common/scaffolding/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_site/page2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10472">
@@ -774,17 +796,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_common/scaffolding/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="232" column="56" selection-start-line="232" selection-start-column="56" selection-end-line="232" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
