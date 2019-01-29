@@ -1,9 +1,9 @@
 ---
-title: ReactNative基础知识-props与state
+title: ReactNative开发-props与state
 description: <center>emmmm....算是ReactNative必须掌握的东西</center>
 categories:
  - ReactNative
-tags: 
+tags: 基础知识
 updated: 2019-01-25 17:30:08
 ---
 

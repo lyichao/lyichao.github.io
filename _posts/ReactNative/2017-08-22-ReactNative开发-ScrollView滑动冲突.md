@@ -1,9 +1,9 @@
 ---
-title: ReactNative基础知识-ScrollView滑动冲突
+title: ReactNative开发-ScrollView滑动冲突
 description: <center>看来滑动冲突这问题无论在什么平台上都是会有啊！</center>
 categories:
  - ReactNative
-tags: 
+tags: 基础知识
 updated: 2019-01-25 17:30:08
 ---
 

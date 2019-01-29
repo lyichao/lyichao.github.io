@@ -1,9 +1,9 @@
 ---
-title: ReactNative基础知识-监听设备返回键
+title: ReactNative开发-监听设备返回键
 description: <center>监听设备返回键</center>
 categories:
  - ReactNative
-tags: 
+tags: 基础知识
 updated: 2019-01-25 17:30:08
 ---
 

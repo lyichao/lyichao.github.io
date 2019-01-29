@@ -1,9 +1,9 @@
 ---
-title: ReactNative基础知识-生命周期
+title: ReactNative开发-生命周期
 description: <center>ReactNative从创建到销毁的整个流程</center>
 categories:
  - ReactNative
-tags: 
+tags: 基础知识
 updated: 2017-08-10 00:00:00
 ---
 
