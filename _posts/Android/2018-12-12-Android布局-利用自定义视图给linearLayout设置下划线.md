@@ -9,13 +9,13 @@ updated: 2018-12-12 15:24:12
 
 ## 概述
 
-> 问题：想在linearLayout布局下给tab设置下划线，效果如下：
+> 问题：想在`linearLayout`布局下给`tab`设置下划线，效果如下：
 
 ![](https://upload-images.jianshu.io/upload_images/8154981-33b5ecfc0166a36f.png)
 
 ## 分析&总结
 
-> 解决思路：可以在drawable里新建xml，选择 layer-list，代码如下：
+> 解决思路：可以在`drawable`里新建`xml`，选择 `layer-list`，代码如下：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

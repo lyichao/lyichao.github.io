@@ -9,21 +9,21 @@ updated: 2017-12-06 00:00:00
 
 ## 前言
 
-在APP开发中，检测版本更新功能是应该说是必不可少的。那么既然有这样的需求，就要有对应的方法来解决。在RN混合开发中，可以使用**react-native-app-upgrade**组件来进行，接下来就以这个react-native-app-upgrade来操作检测版本更新功能。
+在APP开发中，检测版本更新功能是应该说是必不可少的。那么既然有这样的需求，就要有对应的方法来解决。在RN混合开发中，可以使用`react-native-app-upgrade`组件来进行，接下来就以这个`react-native-app-upgrade`来操作检测版本更新功能。
 
 ## 具体实现
 
 ### 步骤1
 
-从github上下载react-native-app-upgrade组件，将解压后得到的android_upgrade文件夹放到你需要添加版本更新功能的项目目录下（android\app\src\main\java\com\包名）下，如下图所示：
+从github上下载`react-native-app-upgrade`组件，将解压后得到的`android_upgrade`文件夹放到你需要添加版本更新功能的项目目录下`android\app\src\main\java\com\包名`下，如下图所示：
 
 ![](https://upload-images.jianshu.io/upload_images/8154981-1a37a94f1c0d5a03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-接着再把解压得到的ios_upgrade文件夹放到需要添加版本更新功能的项目目录（\ios）下，如下图1-2所示：
+接着再把解压得到的`ios_upgrade`文件夹放到需要添加版本更新功能的项目目录`\ios`下，如下图所示：
 
 ![](https://upload-images.jianshu.io/upload_images/8154981-432df7d0c7a76dab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-接着修改android_upgrade文件夹下8个类文件的包名，如下图所示：
+接着修改`android_upgrade`文件夹下8个类文件的包名，如下图所示：
 
 ![](https://upload-images.jianshu.io/upload_images/8154981-889b8dfd9c069910.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -33,7 +33,7 @@ updated: 2017-12-06 00:00:00
 
 ### 步骤2
 
-在AndroidMainfest.xml文件下添加权限和service组件
+在`AndroidMainfest.xml`文件下添加权限和`service`组件
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
@@ -50,7 +50,7 @@ updated: 2017-12-06 00:00:00
 
 <center>AndroidMainfest.xml完整代码</center>
 
-接着在android/app/src/main/res/values/strings.xml文件下添加
+接着在`android/app/src/main/res/values/strings.xml`文件下添加
 
 ```xml
 <string name="android_auto_update_download_progress">正在下载:%1$d%%</string>
@@ -60,9 +60,9 @@ updated: 2017-12-06 00:00:00
 
 ### 步骤3
 
-到MainApplication.java文件下，先添加一下代码，导入UpgradePackage.java文件
+到`MainApplication.java`文件下，先添加一下代码，导入`UpgradePackage.java`文件
 `import 项目工程包名.UpgradePackage;`
-然后在getPackages（）方法中添加`new UpUpgradePackage()`，如下图所示：
+然后在`getPackages（）`方法中添加`new UpUpgradePackage()`，如下图所示：
 
 ![å¾3-1](https://upload-images.jianshu.io/upload_images/8154981-650edff5a097f710.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -70,7 +70,7 @@ updated: 2017-12-06 00:00:00
 
 ### 步骤4
 
-到需要添加检测版本更新的代码页面下，先导入NativeModules模块，如下图所示：
+到需要添加检测版本更新的代码页面下，先导入`NativeModules`模块，如下图所示：
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-15569820712b8a44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

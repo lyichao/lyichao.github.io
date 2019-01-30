@@ -13,17 +13,17 @@ updated: 2017-11-14 00:00:00
 
 ## 链接原生模块步骤
 
-### 打开项目文件夹/android/app/java/目录下的包新增两个类。
+### 打开项目文件夹`/android/app/java/`目录下的包新增两个类。
 
-#### （1）一是MyNativeModule类（名字自定义）并继承ReactContextBaseJavaModule，用来存放需要在React Native中调用的方法。如图1-1所示。
-#### （2）一是MyReactPackage类（名字自定义）并实现接口ReactPackage包管理器，并把在第一步中创建的类加到原生模块（NativeModule）列表里。如图1-1所示。
+#### （1）一是`MyNativeModule`类（名字自定义）并继承`ReactContextBaseJavaModule`，用来存放需要在React Native中调用的方法。如下图所示：
+#### （2）一是`MyReactPackage`类（名字自定义）并实现接口`ReactPackage`包管理器，并把在第一步中创建的类加到原生模块`NativeModule`列表里。如下图所示：
 ![](https://upload-images.jianshu.io/upload_images/8154981-d01fb0b3e8654924.png)
 
-#### （3）把在第二步中创建的包管理器添加到ReactPackage列表里（指在getPackage方法里面）
+#### （3）把在第二步中创建的包管理器添加到`ReactPackage`列表里（指在`getPackage`方法里面）
 
 #### （4）在React Native中调用原生模块。
 
-MyNativeModule.java代码如下：
+`MyNativeModule.java`代码如下：
 
 ```java
 package com.connectnative;
@@ -107,7 +107,7 @@ public class MyReactPackage implements ReactPackage {
 }
 ```
 
-MainApplication.java代码如下：
+`MainApplication.java`代码如下：
 
 ```java
 package com.connectnative;
@@ -179,7 +179,7 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
-接着需要在RN中import原生模块
+接着需要在RN中`import`原生模块
 
 ![img](https://upload-images.jianshu.io/upload_images/8154981-c65c29f3d83ef305.png)
 
@@ -255,7 +255,7 @@ const styles = StyleSheet.create({
 
 ## 总结&理清流程
 
-> - (1)在配置文件AndroidManifest.xml中，android:name=".MainApplication"，则MainApplication.java会执行。
-> - (2)在MainApplication.java中，有我们创建的包管理器对象。程序加入MyReactPackage.java中。
-> - (3)在MyReactPackage.java中，将我们自己创建的模块加入了原生模块列表中，程序进入MyNativeModule.java中。
-> - (4)在MyNativeModule.java中，有我们需要被复用的原生方法rnCallNative( )。
+> - (1)在配置文件`AndroidManifest.xml`中，`android:name=".MainApplication”`，则`MainApplication.java`会执行。
+> - (2)在`MainApplication.java`中，有我们创建的包管理器对象。程序加入`MyReactPackage.java`中。
+> - (3)在`MyReactPackage.java`中，将我们自己创建的模块加入了原生模块列表中，程序进入`MyNativeModule.java`中。
+> - (4)在`MyNativeModule.java`中，有我们需要被复用的原生方法`rnCallNative( )`。

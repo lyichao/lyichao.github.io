@@ -11,7 +11,6 @@ updated: 2018-12-07 00:00:00
 
 > 极光推送官方有提供支持React Native版本的插件（ios和android），可以快速集成推送功能。
 > 目前只集成Android部分，ios因为需要Apple开发者账号（99美金一年），暂时没办法记录。
-> 有mac也很无奈😢
 
 ## 安装
 
@@ -36,11 +35,11 @@ link失败也没事，可以手动进行配置。继续进行下面操作：
 
 ## Android平台集成
 
-> ### 1.在android studio打开React Native项目下的android文件夹，然后跟着以下路径打开build.gradle：
+> ### 1.在android studio打开React Native项目下的android文件夹，然后跟着以下路径打开`build.gradle`：
 >
-> > 路径：android/app/build.gradle
+> > 路径：`android/app/build.gradle`
 
-### 2.修改build.gradle文件：
+### 2.修改`build.gradle`文件：
 
 ```java
 android {
@@ -75,9 +74,9 @@ dependencies {
 
 <center>极光上申请得到的applicationId</center>
 
-> ### 3.打开settings.gradle
+> ### 3.打开`settings.gradle`
 >
-> >路径：android/settings.gradle
+> >路径：`android/settings.gradle`
 
 ### 4.添加以下代码：
 
@@ -93,7 +92,7 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 
 <center>settings.gradle完整代码</center>
 
-### 5.打开AndroidManifest.xml，添加：
+### 5.打开`AndroidManifest.xml`，添加：
 
 ```xml
 <meta-data android:name="JPUSH_CHANNEL" android:value="${APP_CHANNEL}"/>
@@ -104,26 +103,26 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 
 <center>AndroidManifest.xml完整代码</center>
 
-### 6.点击页面右上角Sync Now按钮，等待Android Studio编译成功过后，左侧的导航栏会多出两个包：
+### 6.点击页面右上角`Sync Now`按钮，等待Android Studio编译成功过后，左侧的导航栏会多出两个包：
 
 ![编译成功后引入的包](https://upload-images.jianshu.io/upload_images/8154981-bb5d28fd6f959791.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>编译成功后引入的包</center>
 
-如果Sync失败，可以参考以下几点：
+如果`Sync`失败，可以参考以下几点：
 
 > - 网络环境是否稳定
-> - 项目目录下的build:gradle文件里的gradle版本是否过低（个人使用3.1.4）
+> - 项目目录下的`build:gradle`文件里的`gradle版本`是否过低（个人使用3.1.4）
 
 ![完整build:gradle代码](https://upload-images.jianshu.io/upload_images/8154981-d9e075debef675b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>完整build:gradle代码</center>
 
-> ### 7.打开MainApplication.java
+> ### 7.打开`MainApplication.java`
 >
-> >路径：app/src/java/.../MainApplication.java
+> >路径：`app/src/java/…/MainApplication.java`
 
-引入JPushPackage包：
+引入`JPushPackage`包：
 
 ```java
 import cn.jpush.reactnativejpush.JPushPackage;
@@ -148,11 +147,11 @@ new JPushPackage(SHUTDOWN_TOAST, SHUTDOWN_LOG)
 
 <center>MainApplication.java完整代码</center>
 
-> ### 8.打开MainActivity.java
+> ### 8.打开`MainActivity.java`
 >
-> > 路径：app/src/java/.../MainActivity.java
+> > 路径：`app/src/java/…/MainActivity.java`
 
-引入JPushInterface：
+引入`JPushInterface`：
 
 ```java
 import cn.jpush.android.api.JPushInterface;

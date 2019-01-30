@@ -9,33 +9,33 @@ updated: 2019-01-21 17:30:08
 
 ## 前言
 
-> MVP架构流行已久，但由于实在没时间（太懒），所以一直对MVP停留在听说一词上。
+> `MVP`架构流行已久，但由于实在没时间（太懒），所以一直对`MVP`停留在听说一词上。
 >
-> 由于最近公司让我接收一个android项目，而该项目之前的android版本就是使用MVP架构，因此得以真正接触到了MVP架构。
+> 由于最近公司让我接收一个android项目，而该项目之前的android版本就是使用`MVP`架构，因此得以真正接触到了`MVP`架构。
 
 
 
 ## 首先，我们来理解下MVP是什么？
 
-> MVP全称Model-View-Presenter，它把项目大概划分为3个模块，其实分别对应：
+> `MVP`全称`Model-View-Presenter`，它把项目大概划分为3个模块，其实分别对应：
 >
 > M层：实体层，负责获取实体数据。
 >
-> V层：视图层，对应XML文件与Activity/Fragment。
+> V层：视图层，对应`XML`文件与`Activity`/`Fragment`。
 >
-> P层：逻辑控制层，同时持有View和Model对象。
+> P层：逻辑控制层，同时持有`View`和`Model`对象。
 >
-> MVP的流程图大致如下所示：
+> `MVP`的流程图大致如下所示：
 >
 > ![image-20190121174157334](https://upload-images.jianshu.io/upload_images/8154981-be4e55cf5abc795e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 那么，MVP有什么优势？
 
-> 1. 把业务逻辑抽离到Presenter层中，View层专注于UI的处理。
+> 1. 把业务逻辑抽离到`Presenter`层中，`View`层专注于UI的处理。
 >
 > 2. 分离视图逻辑与业务逻辑，达到解耦的目的。
 >
-> 3. Presenter被抽象成接口，可以根据Presenter的实现方式进行单元测试。
+> 3. `Presenter`被抽象成接口，可以根据`Presenter`的实现方式进行单元测试。
 >
 > 4. 提高代码的阅读性。
 >
@@ -45,21 +45,21 @@ updated: 2019-01-21 17:30:08
 
 > 1. 项目结构会对后期的开发和维护有一定影响，具体视APP的体量而定。
 >
-> 2. 代码量会增多，如何避免编写过多功能相似的重复代码是使用MVP开发的一个重要处理问题。
+> 2. 代码量会增多，如何避免编写过多功能相似的重复代码是使用`MVP`开发的一个重要处理问题。
 >
 > 3. 有一定的学习成本。
 
 ## 趁热打铁，撸起袖子就是干！
 
-> 下面通过输入账号密码实现登录的例子，来看看MVP到底是如何分工（甩锅）合作的。
+> 下面通过输入账号密码实现登录的例子，来看看`MVP`到底是如何分工（甩锅）合作的。
 
 
 
-### 创建一个空项目，名为MVPDemo好了。然后在项目下的mvpdemo文件夹中新增model、view、presenter三个文件夹，分别对应实体层、视图层、逻辑控制层。然后在view文件夹中创建activity文件夹，并把MainActivity拖至其中。如下图所示：
+### 创建一个空项目，名为MVPDemo好了。然后在项目下的mvpdemo文件夹中新增`model`、`view`、`presenter`三个文件夹，分别对应实体层、视图层、逻辑控制层。然后在`view`文件夹中创建`activity`文件夹，并把`MainActivity`拖至其中。如下图所示：
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-cc6cc0ad1c6712d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### 在activity_main.xml中添加三个组件，用于输入账号密码和登录
+### 在`activity_main.xml`中添加三个组件，用于输入账号密码和登录
 
   ```xml
   <?xml version="1.0" encoding="utf-8"?>
@@ -103,7 +103,7 @@ updated: 2019-01-21 17:30:08
           android:text="登录" />
   ```
 
-### 回到MainActivity中，绑定三个UI组件  
+### 回到`MainActivity`中，绑定三个UI组件  
 
   ```java
   public class MainActivity extends AppCompatActivity {
@@ -136,21 +136,21 @@ updated: 2019-01-21 17:30:08
   }
   ```
 
-### 接下来就算是开始用到MVP了，先来分析下登录操作，因为输入账号密码后需要进行登录操作，而登录操作可以看作有那么几步：
+### 接下来就算是开始用到`MVP`了，先来分析下登录操作，因为输入账号密码后需要进行登录操作，而登录操作可以看作有那么几步：
 
-  > 1.登录验证失败：***账号密码不能为空，账号密码不能错误***。如果存在这两种情况，则***弹出对应Toast***；
+  > 1.登录验证失败：***账号密码不能为空，账号密码不能错误***。如果存在这两种情况，则***弹出对应`Toast`***；
   >
-  > 2登录验证成功：***弹出登录成功Toast***，并跳转到登录成功页面
+  > 2登录验证成功：***弹出登录成功`Toast`***，并跳转到登录成功页面
 
   因此登录操作中既包括了***逻辑控制层操作***，也包括了***视图层操作***。
 
 ### 那么我们就需要创建对应的文件
 
-  > 1.在presenter文件夹下创建接口类LoginActivityPresenter和impl文件夹;
+  > 1.在`presenter`文件夹下创建接口类`LoginActivityPresenter`和`impl`文件夹;
   >
-  > 2.在LoginActivityPresenter接口中新建一个登录方法；
+  > 2.在`LoginActivityPresenter`接口中新建一个登录方法；
   >
-  > 3.接着在impl文件夹内创建LoginPresenterImpl类并实现LoginActivityPresenter接口的登录方法；
+  > 3.接着在`impl`文件夹内创建`LoginPresenterImpl`类并实现`LoginActivityPresenter`接口的登录方法；
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-534f89bcb21313dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -181,13 +181,13 @@ public class LoginPresenterImpl implements LoginActivityPresenter {
 
 ```
 
-### 在LoginPresenterImpl中的完善login方法，其中，因为需要在验证操作后通知UI层弹出Toast操作，所以需要引入视图层的方法。所以在完善login方法前，先来添加视图层需要的方法：
+### 在`LoginPresenterImpl`中的完善`login`方法，其中，因为需要在验证操作后通知UI层弹出`Toast`操作，所以需要引入视图层的方法。所以在完善`login`方法前，先来添加视图层需要的方法：
 
-> 1.在view文件夹下创建iView文件夹
+> 1.在`view`文件夹下创建`iView`文件夹
 >
-> 2.在iView文件夹新建一个接口类ILoginActivity
+> 2.在`iView`文件夹新建一个接口类`ILoginActivity`
 >
-> 3.在接口类ILoginActivity中添加两个方法，一个用于验证成功后返回，一个用于验证失败后返回
+> 3.在接口类`ILoginActivity`中添加两个方法，一个用于验证成功后返回，一个用于验证失败后返回
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f31687d3f07b81c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -205,7 +205,7 @@ public interface ILoginActivity {
 }
 ```
 
-### 万事俱备，只欠login。我们回到LoginPresenterImpl类，往里面引入刚刚添加的接口类ILoginActivity，并完善登录验证失败/成功时的代码
+### 万事俱备，只欠`login`。我们回到`LoginPresenterImpl`类，往里面引入刚刚添加的接口类`ILoginActivity`，并完善登录验证失败/成功时的代码
 
 
 
@@ -243,15 +243,15 @@ public class LoginPresenterImpl implements LoginActivityPresenter {
 }
 ```
 
-### 现在基本的设置已经完成，我们把注意力移到MainActivity身上，此时的MainActivity还是独自一人，还没和逻辑控制层、实体层和视图层建立联系。因为我们来给他们搭建一座桥梁：
+### 现在基本的设置已经完成，我们把注意力移到`MainActivity`身上，此时的`MainActivity`还是独自一人，还没和逻辑控制层、实体层和视图层建立联系。因为我们来给他们搭建一座桥梁：
 
->1.引入逻辑控制层LoginPresenterImpl
+>1.引入逻辑控制层`LoginPresenterImpl`
 
 ```java
 private LoginPresenterImpl mLoginPresenter;
 ```
 
-> 2.为LoginPresenterImpl新建实力对象
+> 2.为`LoginPresenterImpl`新建实例对象
 
 ```java
 private LoginActivityPresenter getPresenter(){
@@ -262,7 +262,7 @@ private LoginActivityPresenter getPresenter(){
 }
 ```
 
-> 3.触发登录事件时，调用LoginPresenterImpl（逻辑控制层）里的login方法
+> 3.触发登录事件时，调用`LoginPresenterImpl`（逻辑控制层）里的`login`方法
 
 ```java
 private void initListener() {
@@ -276,7 +276,7 @@ private void initListener() {
 }
 ```
 
-> 4.实现接口类ILoginActivity（视图层）的两个方法,并在各自的中实现对应的逻辑
+> 4.实现接口类`ILoginActivity`（视图层）的两个方法,并在各自的中实现对应的逻辑
 
 ```java
 public class MainActivity extends Activity implements ILoginActivity
