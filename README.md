@@ -1,26 +1,36 @@
-# Summary
+# 博客记录
 
-* [前言](README.md)
-* [编程语言](Chapter1/README.md)
-    * [Python](Chapter1/Python.md)
-    * [Java](Chapter1/Java.md)
-    * [JavaScript](Chapter1/JavaScript.md)
-        * [正则表达式](Chapter1/JavaScript/正则表达式.md)
-* [移动开发](Chapter2/README.md)
-    * [Android](Chapter2/Android.md)
-        * [MVP学习记录](Chapter2/Android/MVP学习记录.md)
-    * [ReactNative](Chapter2/ReactNative.md)
-        * [基础知识](Chapter2/ReactNative/基础知识.md)
-            * [生命周期](Chapter2/ReactNative/基础知识/生命周期.md)
-            * [FlexBox布局](Chapter2/ReactNative/基础知识/FlexBox布局.md)
-            * [ScrollView滑动冲突](Chapter2/ReactNative/基础知识/ScrollView滑动冲突.md)
-            * [组件引入必须大写](Chapter2/ReactNative/基础知识/组件引入必须大写.md)
-            * [JSX语法](Chapter2/ReactNative/基础知识/JSX语法.md)
-            * [屏蔽安卓返回键](Chapter2/ReactNative/基础知识/屏蔽安卓返回键.md)
-            * [打包APk](Chapter2/ReactNative/基础知识/打包APk.md)
-            * [props与state的区别理解](Chapter2/ReactNative/基础知识/props与state的区别理解.md)
-        * [工作原理](Chapter2/ReactNative/工作原理.md)
-        * [开发规范](Chapter2/ReactNative/开发规范.md)
-        * [性能优化](Chapter2/ReactNative/性能优化.md)
-        * [红屏、报错记录](Chapter2/ReactNative/红屏、报错记录.md)
-* [GitBook安装、命令、插件](Chapter3/README.md)
+- Android
+  - RxJava思维导图
+  - GridView实现隔行(奇偶数)换颜色功能
+  - 利用自定义视图给linearLayout设置下划线
+  - MVP学习记录
+- ReactNative
+  - FlexBox布局
+  - 生命周期
+  - props与state的区别理解
+  - 打包APk
+  - ScrollView滑动冲突
+  - 链接原生库
+  - 检测版本更新（非热更新）
+  - 红屏、报错记录
+  - 监听设备返回键
+  - 开发规范（待更新）
+  - 工作原理（待更新）
+  - 性能优化（待更新）
+  - 集成极光推送jpush-react-native
+- 编程语言
+  - Java
+    - 《Head First Java》速记
+  - JavaScript（待更新）
+  - Python（待更新）
+- 计算机技能
+  - Git
+    - GIt常用命令
+    - Git删除远程分支上的某次提交
+  - 网络基础
+    - Cookie、Session、Token学习记录
+- 风云录
+  - 毕业后的我
+  - 2017总结
+  - 2018总结
