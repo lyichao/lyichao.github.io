@@ -19,7 +19,7 @@
   - 工作原理（待更新）
   - 性能优化（待更新）
   - 集成极光推送jpush-react-native
-  - 集成热更新
+  - 集成热更新（待更新）
 - 编程语言
   - Java
     - 《Head First Java》速记
@@ -31,6 +31,7 @@
     - Git删除远程分支上的某次提交
   - 网络基础
     - Cookie、Session、Token学习记录
+    - 使用charles抓包app请求
 - 风云录
   - 毕业后的我
   - 2017总结
