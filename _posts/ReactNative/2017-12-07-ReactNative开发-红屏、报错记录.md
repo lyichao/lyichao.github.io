@@ -4,7 +4,7 @@ description: <center>记录在使用ReactNative日常开发中出现的红屏、
 categories:
  - ReactNative
 tags: BUG/问题
-updated: 2019-01-25 17:30:08
+updated: 2019-01-31 00:00:00
 ---
 
 > ## BUG描述
@@ -231,3 +231,35 @@ updated: 2019-01-25 17:30:08
 > >
 > >React-native bundle --platform Android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 
+
+
+---
+
+
+
+> ## BUG描述
+>
+> > ```bash
+> > Error: Validation error
+> >     at /Users/lee/RNWorkStation/Demo/node_modules/react-native-update/local-cli/lib/api.js:8:27
+> >     at Generator.next (<anonymous>)
+> >     at step (/Users/lee/RNWorkStation/Demo/node_modules/react-native-update/local-cli/lib/api.js:82:191)
+> >     at /Users/lee/RNWorkStation/Demo/node_modules/react-native-update/local-cli/lib/api.js:82:361
+> >     at <anonymous>
+> >     at process._tickCallback (internal/process/next_tick.js:189:7)
+> > ```
+>
+> ### 解决办法
+>
+> > 已经上传过同样版本号的ipa，重新上传需要修改版本号
+> >
+> > [问题参考]（https://github.com/reactnativecn/react-native-pushy/issues/143）
+> >
+> > - android平台：修改根目录`/android/app/build.gradle`下的`versionCode`和`versionName`.例如： 
+> >
+> >   ```java
+> >   versionCode 2
+> >   versionName "1.0.02"
+> >   ```
+> >
+> > - ios平台：（待添加） 
