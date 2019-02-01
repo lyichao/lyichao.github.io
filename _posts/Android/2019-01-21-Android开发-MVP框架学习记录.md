@@ -1,9 +1,9 @@
 ---
-title: MVP学习记录
+title: Android开发-MVP框架学习记录
 description: <center>记录MVP是什么？有什么优势和劣势？使用登录验证demo来记录MVP</center>
 categories:
  - Android
-tags: 框架
+tags: 框架 进阶
 updated: 2019-01-21 17:30:08
 ---
 

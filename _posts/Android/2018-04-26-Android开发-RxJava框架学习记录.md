@@ -1,5 +1,5 @@
 ---
-title: Android框架-RxJava
+title: Android开发-RxJava框架学习记录
 description: <center>利用思维导图记一次RxJava框架学习</center>
 categories:
  - Android

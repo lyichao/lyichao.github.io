@@ -1,5 +1,5 @@
 ---
-title: Android布局-利用自定义视图给linearLayout设置下划线
+title: Android开发-利用自定义视图给linearLayout设置下划线
 description: <center>实现起来挺简单的～！</center>
 categories:
  - Android
