@@ -330,11 +330,11 @@ updated: 2018-03-15 00:00:00
 pushy uploadApk android/app/build/outputs/apk/app-release.apk
 ```
 
-<mark>注意：每次修改有涉及原生代码部分都要执行以上两个步骤</mark>
+<mark>注意：每次修改有涉及原生代码部分都要执行以上两个步骤，并且如果不是第一次发布的话，还要在Pushy官网平台上移除需要废弃的APK安装包</mark>
 
 #### 3.发布新的热更新版本
 
-> 这里就是每当要修改`JavaScript`部分并需要发布热更新的时候执行的步骤：
+> 这里就是每当要修改`JavaScript`部分并需要发布热更新的时候执行的步骤，比如我把官网示例中第78行改成“这是版本二！！！！！！”，然后保存修改后执行以下命令：
 >
 > ```
 > pushy bundle --platform android
@@ -352,7 +352,7 @@ pushy uploadApk android/app/build/outputs/apk/app-release.apk
 > 如果想要立即发布，此时输入Y。然后控制台会继续输出显示以下内容并要求你输入相关信息：
 >
 > ```
->   Uploading [========================================================] 100% 0.0s
+> Uploading [========================================================] 100% 0.0s
 > Enter version name: <输入版本名字，如1.0.0-rc>
 > Enter description: <输入版本描述>
 > Enter meta info: {"ok":1}
@@ -369,8 +369,13 @@ pushy uploadApk android/app/build/outputs/apk/app-release.apk
 > Enter packageId: 
 > ```
 >
-> 到此为止，发布已经完成，APP上也可以收到更新消息啦！
+> 到此为止，发布已经完成，Pushy官网平台就会出刚刚发布的哟应用，APP上也可以收到更新消息啦！
 >
-> 
+> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-b00d1311e286e703.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+> <center>Pushy官网平台收到的更新包</center>
+>
+> ![ymmfd-561ao.gif](https://upload-images.jianshu.io/upload_images/8154981-ddcbb6ac70a9c99a.gif?imageMogr2/auto-orient/strip)
 
 ### IOS平台（待更新）
+

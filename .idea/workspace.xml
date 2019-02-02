@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-04-26-Android框架-RxJava思维导图.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-GridView实现隔行(奇偶数)换颜色功能.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-利用自定义视图给linearLayout设置下划线.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-21-Android框架-MVP学习记录.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-03-13-ReactNative开发-集成热更新.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-05-10-ReactNative开发-性能优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2018-05-10-ReactNative开发-性能优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/计算机技能/2018-12-05-使用charles抓包app请求.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/计算机技能/2018-12-05-使用charles抓包app请求.md" afterDir="false" />
-    </list>
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -66,7 +57,7 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
@@ -131,7 +122,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="428">
-                <caret line="308" column="6" lean-forward="true" selection-start-line="308" selection-start-column="6" selection-end-line="308" selection-end-column="6" />
+                <caret line="308" column="6" selection-start-line="308" selection-start-column="6" selection-end-line="308" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -337,12 +328,12 @@
       <workItem from="1548992446017" duration="3000" />
       <workItem from="1548992465043" duration="186000" />
       <workItem from="1549005024935" duration="682000" />
-      <workItem from="1549011620057" duration="1648000" />
+      <workItem from="1549011620057" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48037000" />
+    <option name="totallyTimeSpent" value="48121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +346,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1855" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24863686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -661,7 +651,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="428">
-            <caret line="308" column="6" lean-forward="true" selection-start-line="308" selection-start-column="6" selection-end-line="308" selection-end-column="6" />
+            <caret line="308" column="6" selection-start-line="308" selection-start-column="6" selection-end-line="308" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
