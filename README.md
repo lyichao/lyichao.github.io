@@ -19,7 +19,9 @@
   - 工作原理（待更新）
   - 性能优化（待更新）
   - 集成极光推送jpush-react-native
-  - 集成热更新（待更新）
+  - 集成Pushy热更新
+  - 集成CodePush热更新（待更新）
+  - Console引起的卡顿问题记录
 - 编程语言
   - Java
     - 《Head First Java》速记
