@@ -378,4 +378,3 @@ pushy uploadApk android/app/build/outputs/apk/app-release.apk
 > ![ymmfd-561ao.gif](https://upload-images.jianshu.io/upload_images/8154981-ddcbb6ac70a9c99a.gif?imageMogr2/auto-orient/strip)
 
 ### IOS平台（待更新）
-
