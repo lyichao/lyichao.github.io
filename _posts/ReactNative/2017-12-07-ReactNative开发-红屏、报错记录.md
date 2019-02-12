@@ -4,7 +4,7 @@ description: <center>记录在使用ReactNative日常开发中出现的红屏、
 categories:
  - ReactNative
 tags: BUG/问题
-updated: 2019-01-31 00:00:00
+updated: 2019-02-12 00:00:00
 ---
 
 > ## BUG描述
@@ -263,3 +263,31 @@ updated: 2019-01-31 00:00:00
 > >   ```
 > >
 > > - ios平台：（待添加） 
+
+
+
+> ## BUG描述
+>
+> > ```
+> > * What went wrong:
+> > Could not resolve all files for configuration ':react-native-code-push:_internal_aapt2_binary'.
+> > > Could not resolve com.android.tools.build:aapt2:3.2.1-4818971.
+> >   Required by:
+> >       project :react-native-code-push
+> >    > Could not resolve com.android.tools.build:aapt2:3.2.1-4818971.
+> >       > Could not get resource 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
+> >          > Could not HEAD 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
+> >             > Connect to 127.0.0.1:1087 [/127.0.0.1] failed: Connection refused (Connection refused)
+> > 
+> > ```
+>
+> ### 解决办法
+>
+> > ```
+> > systemProp.https.proxyPort=``1080
+> > systemProp.http.proxyHost=``127.0``.``0.1
+> > systemProp.https.proxyHost=``127.0``.``0.1
+> > systemProp.http.proxyPort=``1080
+> > ```
+> >
+> > `gradle.properties `文件中使用了代理，删除`gradle.properties`中的代理以及计算机用户目录下的`.gradle`文件夹中的代理即可。
