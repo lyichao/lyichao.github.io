@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="" />
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -57,22 +59,22 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="37" />
           <entry key="html" value="42" />
-          <entry key="md" value="737" />
+          <entry key="md" value="790" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="16" />
           <entry key="yml" value="148" />
@@ -82,7 +84,7 @@
         <counts>
           <entry key="CSS" value="37" />
           <entry key="HTML" value="42" />
-          <entry key="Markdown" value="732" />
+          <entry key="Markdown" value="785" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="16" />
@@ -95,7 +97,7 @@
           <entry key="css" value="4" />
           <entry key="html" value="29" />
           <entry key="map" value="1" />
-          <entry key="md" value="77" />
+          <entry key="md" value="80" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="15" />
           <entry key="yml" value="9" />
@@ -105,7 +107,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="75" />
+          <entry key="Markdown" value="78" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="15" />
@@ -116,7 +118,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="9" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -161,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/_variables/custom.scss" />
         <option value="$PROJECT_DIR$/_sass/_variables/Muse.scss" />
         <option value="$PROJECT_DIR$/_includes/_partials/head.html" />
         <option value="$PROJECT_DIR$/_posts/2019-01-21-MVP学习记录.md" />
@@ -212,6 +226,7 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/_layout.html" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md" />
       </list>
     </option>
   </component>
@@ -232,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,10 +264,22 @@
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,11 +340,12 @@
       <workItem from="1549941953871" duration="1727000" />
       <workItem from="1549950701983" duration="1830000" />
       <workItem from="1549965669473" duration="170000" />
+      <workItem from="1550041989704" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52008000" />
+    <option name="totallyTimeSpent" value="52275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,8 +358,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="23" width="1855" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24863686" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24863686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,7 +372,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054526" side_tool="true" weight="0.17098446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -358,17 +386,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-20-next-tutorial.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/私密风云录/2019-1-21-2018总结(私密).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/风云录/2017-09-28-毕业后的我.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -397,16 +414,6 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -631,19 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#9749#9756#0" expanded="true" />
-            <element signature="e#14290#14297#0" expanded="true" />
-            <element signature="e#18860#18867#0" expanded="true" />
-            <element signature="e#23707#23714#0" expanded="true" />
-            <element signature="e#28573#28580#0" expanded="true" />
-            <element signature="e#33394#33401#0" expanded="true" />
-            <element signature="e#38081#38088#0" expanded="true" />
-            <element signature="e#42731#42738#0" expanded="true" />
-            <element signature="e#47470#47477#0" expanded="true" />
-            <element signature="e#52047#52054#0" expanded="true" />
-            <element signature="e#52647#52655#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,6 +660,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-22-ReactNative开发-ScrollView滑动冲突.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="9" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

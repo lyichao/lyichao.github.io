@@ -22,6 +22,8 @@
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [集成CodePush热更新（待更新）](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [Console引起的卡顿问题记录](https://lyichao.github.io/reactnative/2018/12/03/ReactNative%E5%BC%80%E5%8F%91-Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/)
+  - [Redux路由框架学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)（待更新）
+  - [解决键盘遮挡问题]()（待更新）
 - [编程语言](https://lyichao.github.io/category/#/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)
   - Java
     - [《Head First Java》速记](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2017/10/14/Java%E5%AD%A6%E4%B9%A0-Head-First-Java-%E9%80%9F%E8%AE%B0/)
