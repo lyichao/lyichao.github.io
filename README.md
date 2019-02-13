@@ -15,15 +15,15 @@
   - [检测版本更新（非热更新）](https://lyichao.github.io/reactnative/2017/12/06/ReactNative%E5%BC%80%E5%8F%91-%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0-%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [红屏、报错记录](https://lyichao.github.io/reactnative/2017/12/07/ReactNative%E5%BC%80%E5%8F%91-%E7%BA%A2%E5%B1%8F-%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%95/)
   - [监听设备返回键](https://lyichao.github.io/reactnative/2017/12/10/ReactNative%E5%BC%80%E5%8F%91-%E7%9B%91%E5%90%AC%E8%AE%BE%E5%A4%87%E8%BF%94%E5%9B%9E%E9%94%AE/)
-  - [开发规范（待更新）](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)
-  - [工作原理（待更新）](https://lyichao.github.io/reactnative/2018/01/05/ReactNative%E5%BC%80%E5%8F%91-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/)
-  - [性能优化（待更新）](https://lyichao.github.io/reactnative/2018/05/10/ReactNative%E5%BC%80%E5%8F%91-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/)
+  - [开发规范](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)（待更新）
+  - [工作原理](https://lyichao.github.io/reactnative/2018/01/05/ReactNative%E5%BC%80%E5%8F%91-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/)（待更新）
+  - [性能优化](https://lyichao.github.io/reactnative/2018/05/10/ReactNative%E5%BC%80%E5%8F%91-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/)（待更新）
   - [集成极光推送jpush-react-native](https://lyichao.github.io/reactnative/2018/12/07/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native/)
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
-  - [集成CodePush热更新（待更新）](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)
+  - [集成CodePush热更新](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)（待更新）
   - [Console引起的卡顿问题记录](https://lyichao.github.io/reactnative/2018/12/03/ReactNative%E5%BC%80%E5%8F%91-Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/)
   - [Redux路由框架学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)（待更新）
-  - [解决键盘遮挡问题]()（待更新）
+  - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)（待更新）
 - [编程语言](https://lyichao.github.io/category/#/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)
   - Java
     - [《Head First Java》速记](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2017/10/14/Java%E5%AD%A6%E4%B9%A0-Head-First-Java-%E9%80%9F%E8%AE%B0/)
