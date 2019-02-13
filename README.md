@@ -2,8 +2,8 @@
 
 - [Android](https://lyichao.github.io/category/#/Android)
   - [RxJava框架学习记录](https://lyichao.github.io/android/2018/04/26/Android%E5%BC%80%E5%8F%91-RxJava%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
-  - [GridView实现隔行(奇偶数)换颜色功能](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C(%E5%A5%87%E5%81%B6%E6%95%B0)%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD/)
   - [利用自定义视图给linearLayout设置下划线](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-%E5%88%A9%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%86%E5%9B%BE%E7%BB%99linearLayout%E8%AE%BE%E7%BD%AE%E4%B8%8B%E5%88%92%E7%BA%BF/)
+  - [GridView实现隔行(奇偶数)换颜色功能](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C(%E5%A5%87%E5%81%B6%E6%95%B0)%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD/)
   - [MVP学习记录](https://lyichao.github.io/android/2019/01/21/Android%E5%BC%80%E5%8F%91-MVP%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
 - [ReactNative](https://lyichao.github.io/category/#/ReactNative)
   - [FlexBox布局](https://lyichao.github.io/reactnative/2017/08/10/ReactNative%E5%BC%80%E5%8F%91-FlexBox%E5%B8%83%E5%B1%80/)
@@ -17,13 +17,13 @@
   - [监听设备返回键](https://lyichao.github.io/reactnative/2017/12/10/ReactNative%E5%BC%80%E5%8F%91-%E7%9B%91%E5%90%AC%E8%AE%BE%E5%A4%87%E8%BF%94%E5%9B%9E%E9%94%AE/)
   - [开发规范](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)（待更新）
   - [工作原理](https://lyichao.github.io/reactnative/2018/01/05/ReactNative%E5%BC%80%E5%8F%91-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/)（待更新）
-  - [性能优化](https://lyichao.github.io/reactnative/2018/05/10/ReactNative%E5%BC%80%E5%8F%91-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/)（待更新）
-  - [集成极光推送jpush-react-native](https://lyichao.github.io/reactnative/2018/12/07/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native/)
+  - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)（更新中）
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [集成CodePush热更新](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)（待更新）
-  - [Console引起的卡顿问题记录](https://lyichao.github.io/reactnative/2018/12/03/ReactNative%E5%BC%80%E5%8F%91-Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/)
   - [Redux路由框架学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)（更新中）
-  - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)（更新中）
+  - [性能优化](https://lyichao.github.io/reactnative/2018/05/10/ReactNative%E5%BC%80%E5%8F%91-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/)（待更新）
+  - [Console引起的卡顿问题记录](https://lyichao.github.io/reactnative/2018/12/03/ReactNative%E5%BC%80%E5%8F%91-Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/)
+  - [集成极光推送jpush-react-native](https://lyichao.github.io/reactnative/2018/12/07/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native/)
 - [编程语言](https://lyichao.github.io/category/#/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)
   - Java
     - [《Head First Java》速记](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2017/10/14/Java%E5%AD%A6%E4%B9%A0-Head-First-Java-%E9%80%9F%E8%AE%B0/)
