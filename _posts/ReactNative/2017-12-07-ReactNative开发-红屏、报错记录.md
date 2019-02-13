@@ -15,11 +15,15 @@ updated: 2019-02-12 00:00:00
 >
 > ### 解决办法
 >
-> >1.先把node_modules目录下的react-native-root-siblings删除
+> >~~1.先把node_modules目录下的react-native-root-siblings删除~~
 > >
-> >2.再把根目录下package.json里的react-native-root-toast删除
+> >~~2.再把根目录下package.json里的react-native-root-toast删除~~
 > >
-> >3.然后重新安装npm install react-native-root-toast --save
+> >~~3.然后重新安装npm install react-native-root-toast —save~~
+> >
+> >1.进入/node_modules/react-native-root-siblings/lib/AppRegistryInjection.js
+> >
+> >2.找到`import EventEmitter from 'react-native/Libraries/vendor/emitter/EventEmitter’;`并修改为`import EventEmitter from 'react-native/Libraries/EventEmitter/EventEmitter';`
 
 
 
