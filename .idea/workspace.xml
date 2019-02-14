@@ -59,22 +59,22 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="37" />
           <entry key="html" value="42" />
-          <entry key="md" value="790" />
+          <entry key="md" value="827" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="16" />
           <entry key="yml" value="148" />
@@ -84,7 +84,7 @@
         <counts>
           <entry key="CSS" value="37" />
           <entry key="HTML" value="42" />
-          <entry key="Markdown" value="785" />
+          <entry key="Markdown" value="822" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="16" />
@@ -97,7 +97,7 @@
           <entry key="css" value="4" />
           <entry key="html" value="29" />
           <entry key="map" value="1" />
-          <entry key="md" value="80" />
+          <entry key="md" value="82" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="15" />
           <entry key="yml" value="9" />
@@ -107,7 +107,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="78" />
+          <entry key="Markdown" value="80" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="15" />
@@ -118,13 +118,25 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="154">
+                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret selection-end-line="9" selection-end-column="33" />
+                <caret selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -176,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/_variables/Muse.scss" />
         <option value="$PROJECT_DIR$/_includes/_partials/head.html" />
         <option value="$PROJECT_DIR$/_posts/2019-01-21-MVP学习记录.md" />
         <option value="$PROJECT_DIR$/_site/assets/lib/Han/dist/han.css" />
@@ -227,6 +238,7 @@
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/_layout.html" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md" />
+        <option value="$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md" />
       </list>
     </option>
   </component>
@@ -247,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,11 +288,16 @@
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机技能" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,11 +359,12 @@
       <workItem from="1549950701983" duration="1830000" />
       <workItem from="1549965669473" duration="170000" />
       <workItem from="1550041989704" duration="267000" />
+      <workItem from="1550133057678" duration="230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52275000" />
+    <option name="totallyTimeSpent" value="52505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,16 +405,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/风云录/2017-09-28-毕业后的我.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/私密风云录/2017-09-28-毕业后的我(私密).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -593,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-12-05-使用charles抓包app请求.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -682,8 +681,28 @@
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor>
-            <caret selection-end-line="9" selection-end-column="33" />
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>

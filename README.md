@@ -17,7 +17,7 @@
   - [监听设备返回键](https://lyichao.github.io/reactnative/2017/12/10/ReactNative%E5%BC%80%E5%8F%91-%E7%9B%91%E5%90%AC%E8%AE%BE%E5%A4%87%E8%BF%94%E5%9B%9E%E9%94%AE/)
   - [开发规范](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)（待更新）
   - [工作原理](https://lyichao.github.io/reactnative/2018/01/05/ReactNative%E5%BC%80%E5%8F%91-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/)（待更新）
-  - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)（更新中）
+  - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [集成CodePush热更新](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)（待更新）
   - [Redux路由框架学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)（更新中）
@@ -37,6 +37,7 @@
     - [Cookie、Session、Token学习记录](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/01/12/Cookie-Session-Token%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
     - [使用charles抓包app请求](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/12/05/%E4%BD%BF%E7%94%A8charles%E6%8A%93%E5%8C%85app%E8%AF%B7%E6%B1%82/)
   - [正则表达式](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/10/05/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/)
+  - [AI拍照识别之汽车故障灯识别]()（更新中）
 - [风云录](https://lyichao.github.io/category/#/%E9%A3%8E%E4%BA%91%E5%BD%95)
   - [毕业后的我](https://lyichao.github.io/%E9%A3%8E%E4%BA%91%E5%BD%95/2017/09/28/%E6%AF%95%E4%B8%9A%E5%90%8E%E7%9A%84%E6%88%91/)
   - [2017总结](https://lyichao.github.io/%E9%A3%8E%E4%BA%91%E5%BD%95/2018/01/25/2017%E6%80%BB%E7%BB%93/)
