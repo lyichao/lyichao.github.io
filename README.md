@@ -37,7 +37,7 @@
     - [Cookie、Session、Token学习记录](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/01/12/Cookie-Session-Token%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
     - [使用charles抓包app请求](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/12/05/%E4%BD%BF%E7%94%A8charles%E6%8A%93%E5%8C%85app%E8%AF%B7%E6%B1%82/)
   - [正则表达式](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2018/10/05/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/)
-  - [AI拍照识别之汽车故障灯识别]()（更新中）
+  - [AI拍照识别之汽车故障灯识别](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2019/02/02/AI%E6%8B%8D%E7%85%A7%E8%AF%86%E5%88%AB%E4%B9%8B%E6%B1%BD%E8%BD%A6%E6%95%85%E9%9A%9C%E7%81%AF%E8%AF%86%E5%88%AB/)（更新中）
 - [风云录](https://lyichao.github.io/category/#/%E9%A3%8E%E4%BA%91%E5%BD%95)
   - [毕业后的我](https://lyichao.github.io/%E9%A3%8E%E4%BA%91%E5%BD%95/2017/09/28/%E6%AF%95%E4%B8%9A%E5%90%8E%E7%9A%84%E6%88%91/)
   - [2017总结](https://lyichao.github.io/%E9%A3%8E%E4%BA%91%E5%BD%95/2018/01/25/2017%E6%80%BB%E7%BB%93/)
