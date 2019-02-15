@@ -13,7 +13,7 @@ updated: 2019-01-21 17:30:08
 >
 > 由于最近公司让我接收一个android项目，而该项目之前的android版本就是使用`MVP`架构，因此得以真正接触到了`MVP`架构。
 >
-> 本文章Demo下载地址：https://github.com/lyichao/MVPDemo
+> **本文章Demo**：[点击下载](https://codeload.github.com/lyichao/MVPDemo/zip/master)
 
 
 
