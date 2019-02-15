@@ -25,7 +25,7 @@ updated: 2018-02-07 00:00:00
 
 > 解决办法很简单，直接将此文件夹拖到项目的`IOS目录`下即可实现IOS自动管理键盘遮挡文本框的问题。
 >
-> - [下载文件](<https://codeload.github.com/lyichao/IQKeyboardManager/zip/master>)，解压，然后解压后得到的`IQKeyboardManager`文件夹
+> - **[下载文件](<https://codeload.github.com/lyichao/IQKeyboardManager/zip/master>)**，解压，然后解压后得到的`IQKeyboardManager`文件夹
 > - ![image.png](https://upload-images.jianshu.io/upload_images/8154981-06f2d43fc342bf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > - ![image.png](https://upload-images.jianshu.io/upload_images/8154981-79f0d51a53c06b51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > - 添加后会在左侧的导航栏看到已添加的`IQKeyboardManager`文件夹。![image.png](https://upload-images.jianshu.io/upload_images/8154981-02b418bdd700c62e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
