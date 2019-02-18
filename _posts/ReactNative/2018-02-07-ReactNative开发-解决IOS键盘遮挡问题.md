@@ -1,5 +1,5 @@
 ---
-title: ReactNative开发-解决键盘遮挡问题
+title: ReactNative开发-解决IOS键盘遮挡问题
 description: <center>用广东话来形容这问题就是：湿湿碎啦！碎料</center>
 categories:
  - ReactNative

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-21-Android开发-MVP框架学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-21-Android开发-MVP框架学习记录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2017-08-15-ReactNative开发-props与state的区别理解.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2017-08-15-ReactNative开发-props与state的区别理解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决IOS键盘遮挡问题.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,22 +62,22 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="37" />
           <entry key="html" value="42" />
-          <entry key="md" value="827" />
+          <entry key="md" value="830" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="16" />
           <entry key="yml" value="148" />
@@ -84,7 +87,7 @@
         <counts>
           <entry key="CSS" value="37" />
           <entry key="HTML" value="42" />
-          <entry key="Markdown" value="822" />
+          <entry key="Markdown" value="825" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="16" />
@@ -97,7 +100,7 @@
           <entry key="css" value="4" />
           <entry key="html" value="29" />
           <entry key="map" value="1" />
-          <entry key="md" value="82" />
+          <entry key="md" value="104" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="15" />
           <entry key="yml" value="9" />
@@ -107,7 +110,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="29" />
-          <entry key="Markdown" value="80" />
+          <entry key="Markdown" value="102" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="15" />
@@ -119,12 +122,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="494">
+                <caret line="97" column="65" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="65" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,11 +135,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2019-02-02-AI拍照识别之汽车指示灯识别.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="22">
+                <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-01-12-Cookie、Session、Token学习记录.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-12-05-使用charles抓包app请求.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="185">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -188,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/_partials/head.html" />
         <option value="$PROJECT_DIR$/_posts/2019-01-21-MVP学习记录.md" />
         <option value="$PROJECT_DIR$/_site/assets/lib/Han/dist/han.css" />
         <option value="$PROJECT_DIR$/_sass/_custom/custom.scss" />
@@ -237,8 +263,9 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/_layout.html" />
-        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md" />
         <option value="$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2017-08-15-ReactNative开发-props与state的区别理解.md" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md" />
       </list>
     </option>
   </component>
@@ -249,7 +276,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="65" />
     <option name="y" value="23" />
     <option name="width" value="1855" />
     <option name="height" value="1057" />
@@ -292,7 +319,34 @@
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="编程语言" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="编程语言" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="计算机技能" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机技能" type="462c0819:PsiDirectoryNode" />
+              <item name="GIt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="计算机技能" type="462c0819:PsiDirectoryNode" />
+              <item name="网络基础" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,11 +414,12 @@
       <workItem from="1549965669473" duration="170000" />
       <workItem from="1550041989704" duration="267000" />
       <workItem from="1550133057678" duration="230000" />
+      <workItem from="1550221760331" duration="2927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52505000" />
+    <option name="totallyTimeSpent" value="55432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +446,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17098446" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.17202072" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054526" side_tool="true" weight="0.17098446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -405,68 +460,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/私密风云录/2017-09-28-毕业后的我(私密).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="8" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-21-MVP学习记录.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-开发规范.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2019-01-16-Git删除远程分支上的某次提交.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-05-10-ReactNative开发-性能优化.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-JSX语法.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-FlexBox布局.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-ReactNative基础知识-生命周期.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-组件引入必须大写.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-利用自定义视图给linearLayout设置下划线.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-20-ReactNative基础知识-打包APk.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-22-ReactNative基础知识-ScrollView滑动冲突.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-12-10-ReactNative基础知识-屏蔽安卓返回键.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/2018-12-12-Android布局-GridView实现隔行(奇偶数)换颜色功能.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.en.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" />
     <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
@@ -513,26 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-10-ReactNative开发-FlexBox布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-05-07-ReactNative开发-Redux路由框架学习记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-03-15-ReactNative开发-集成CodePush热更新.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -557,36 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-03-13-ReactNative开发-集成Pushy热更新.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1518">
-            <caret line="69" selection-start-line="69" selection-end-line="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-03-ReactNative开发-Console引起的卡顿问题记录.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-12-baidu_verify_Fos8VXBbve.html" />
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -599,16 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-12-05-使用charles抓包app请求.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -660,24 +597,6 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-22-ReactNative开发-ScrollView滑动冲突.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决键盘遮挡问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -688,7 +607,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-21-Android开发-MVP框架学习记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/编程语言/Java/2017-10-14-Java学习-《Head First Java》速记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/2018-04-26-Android开发-RxJava框架学习记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" lean-forward="true" selection-end-line="296" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-10-ReactNative开发-FlexBox布局.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-10-ReactNative开发-生命周期.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-15-ReactNative开发-props与state的区别理解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-20-ReactNative开发-打包APk.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-22-ReactNative开发-ScrollView滑动冲突.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
@@ -698,11 +717,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md">
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-06-ReactNative开发-检测版本更新（非热更新）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-10-ReactNative开发-监听设备返回键.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决IOS键盘遮挡问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-05-07-ReactNative开发-Redux路由框架学习记录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="154">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-05-10-ReactNative开发-性能优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-03-13-ReactNative开发-集成Pushy热更新.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-03-ReactNative开发-Console引起的卡顿问题记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="604">
+            <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="97" column="65" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2019-02-02-AI拍照识别之汽车指示灯识别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-01-12-Cookie、Session、Token学习记录.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-12-05-使用charles抓包app请求.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="185">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>

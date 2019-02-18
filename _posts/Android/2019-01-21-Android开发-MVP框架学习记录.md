@@ -245,7 +245,7 @@ public class LoginPresenterImpl implements LoginActivityPresenter {
 }
 ```
 
-### 现在基本的设置已经完成，我们把注意力移到`MainActivity`身上，此时的`MainActivity`还是独自一人，还没和逻辑控制层、实体层和视图层建立联系。因为我们来给他们搭建一座桥梁：
+### 现在基本的设置已经完成，我们把注意力移到`MainActivity`身上，此时的`MainActivity`还是独自一人，还没和逻辑控制层、实体层和视图层建立联系。因此我们来给他们搭建一座桥梁：
 
 >1.引入逻辑控制层`LoginPresenterImpl`
 

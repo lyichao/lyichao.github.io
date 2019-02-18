@@ -1,10 +1,10 @@
 ---
-title: ReactNative开发-props与state
+title: ReactNative开发-props与state的区别与理解
 description: <center>emmmm....算是ReactNative必须掌握的东西</center>
 categories:
  - ReactNative
 tags: 基础知识
-updated: 2019-01-25 17:30:08
+updated: 2019-02-18 00:00:00
 ---
 
 ## props与state
@@ -77,20 +77,59 @@ class Father extends Component{  
 
 > <mark>state是组件持有的状态</mark>。如果想要修改组件持有的状态或者叫属性，那么就应该用`state`来更改。
 >
-> 一般情况下，我们需要在`constructor`构造方法中进行初始化`state`，然后在你想要修改更新的时候调用`setState`方法。
+> 一般情况下，我们需要在`constructor`构造方法中进行初始化`state`，然后在想要修改更新的时候调用`setState`方法。
 >
 > ```jsx
 > //初始化state
 > constructor(props) {  
 >   super(props);  
 >   this.state = { 
->       showText: true 
->   };  
+>    showText: true 
+> };  
 > } 
 > 
 > //使用setState修改showText的属性
 > this.setState(()=>{
->     showText: false 
+>  showText: false 
 > })
+> ```
+>
+> 但使用`setState`时值得注意的是：它存在一些的问题经常会导致初学者出错，核心原因就是因为这个 API 是异步的。
+>
+> 首先 `setState` 的调用并不会马上引起 `state` 的改变，并且如果你一次调用了多个 `setState` ，那么结果可能并不如你期待的一样。
+>
+> ```jsx
+> handle() {
+>   // 初始化 `count` 为 0
+>   console.log(this.state.count) // -> 0
+>   this.setState({ count: this.state.count + 1 })
+>   this.setState({ count: this.state.count + 1 })
+>   this.setState({ count: this.state.count + 1 })
+>   console.log(this.state.count) // -> 0
+> }
+> ```
+>
+> 第一，两次的打印都为 0，因为 `setState` 是个异步 API，只有同步代码运行完毕才会执行。
+>
+> 第二，虽然调用了三次 `setState` ，但是 `count` 的值还是为 1。因为多次调用会合并为一次，只有当更新结束后 `state` 才会改变。
+>
+> 当然也可以通过以下方式来实现调用三次 `setState` 使得 `count` 为 3
+>
+> ```jsx
+> handle() {
+>   this.setState((prevState) => ({ count: prevState.count + 1 }))
+>   this.setState((prevState) => ({ count: prevState.count + 1 }))
+>   this.setState((prevState) => ({ count: prevState.count + 1 }))
+> }
+> ```
+>
+> 如果你想在每次调用 `setState` 后获得正确的 `state` ，可以通过如下代码实现
+>
+> ```jsx
+> handle() {
+>     this.setState((prevState) => ({ count: prevState.count + 1 }), () => {
+>         console.log(this.state)
+>     })
+> }
 > ```
 
