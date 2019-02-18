@@ -2,7 +2,7 @@
 title: Cookie、Session、Token学习记录
 description: <center>还不理解Cookie、Session、Token之间的关系？看这里！</center>
 categories:
- - 计算机技能
+ - 技能扩展
 tags: 网络基础
 updated: 2018-01-12 00:00:00
 ---
