@@ -87,9 +87,10 @@ updated: 2019-02-20 00:00:00
 
 > ## BUG描述
 >
+> >```
 > >Execution failed for task ':app:mergeDebugResources'.
-> >
 > >Error: Cannot create directory C:\Users\user\WebstormProjects\union\union\android\app\build\intermediates\incremental\mergeDebugResources\merged.dir\values
+> >```
 >
 > ### 解决办法
 >
@@ -103,11 +104,11 @@ updated: 2019-02-20 00:00:00
 
 > ## BUG描述
 >
+> >```
 > >What went wrong:
-> >
 > >Execution failed for task ':app:installRelease'.
-> >
 > >com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to finalize session : INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.union signatures do not match the previously installed version; ignoring!
+> >```
 >
 > ![](https://upload-images.jianshu.io/upload_images/8154981-ab13d74752a3f371.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >
@@ -123,11 +124,11 @@ updated: 2019-02-20 00:00:00
 
 > ## BUG描述
 >
-> >\*What went wrong:
-> >
+> >```
+> >*What went wrong:
 > >A problem occurred configuring project ':app'.
-> >
 > >SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+> >```
 >
 > ### 解决办法
 >
@@ -173,17 +174,14 @@ updated: 2019-02-20 00:00:00
 
 > ## BUG描述
 >
+> >```
 > >A problem occurred configuring root project 'one'.
-> >
 > >Could not resolve all dependencies for configuration ':classpath'.
-> >
 > >Could not download builder.jar (com.android.tools.build:builder:2.2.3)
-> >
 > >Could not get resource 'https://jcenter.bintray.com/com/android/tools/build/builder/2.2.3/builder-2.2.3.jar'.
-> >
 > >Could not GET 'https://jcenter.bintray.com/com/android/tools/build/builder/2.2.3/builder-2.2.3.jar'.
-> >
 > >Read timed out
+> >```
 >
 > ### 解决办法
 >
