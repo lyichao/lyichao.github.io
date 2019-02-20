@@ -381,3 +381,51 @@ updated: 2019-02-20 00:00:00
 > > "redux-thunk": "^2.3.0"
 > > ```
 
+
+
+---
+
+
+
+> ## BUG描述
+>
+> 执行`react-native run-android`后提示：
+>
+> ```bash
+> leedeMac-mini:RepairUnion lee$ react-native run-android
+> Scanning 688 folders for symlinks in /Users/lee/RNWorkStation/RepairUnion/node_modules (8ms)
+> Starting JS server...
+> Building and installing the app on the device (cd android && ./gradlew installDebug)...
+> Could not install the app on the device, read the error above for details.
+> Make sure you have an Android emulator running or a device connected and have
+> set up your Android development environment:
+> https://facebook.github.io/react-native/docs/android-setup.html
+> 
+> ```
+>
+> ### 解决办法
+>
+> > 1.配置全局环境变量
+> >
+> > ```bash
+> > $ vim ~/.bash_profile
+> > $ export ANDROID_HOME="/Users/[your name]/Library/Android/sdk/android-sdk_r24.2" # 以实际位置为准
+> > $ source ~/.bash_profile # 立即生效
+> > ```
+> >
+> > 2.配置权限 
+> >
+> > 如果配置环境后不可以运行 可能是无权限运行,在项目下运行 就是为android文件夹下的gradlew命令添加权限, **在根目录下执行 chmod 755 android/gradlew,本次就是用这个方法解决 **
+> >
+> > 3.项目中`android`目录下新建文件`local.properties`,并添加如下内容：
+> >
+> > ```bash
+> > sdk.dir=/Users/[your name]/Library/Android/sdk/android-sdk_r24.2
+> > ```
+
+
+
+---
+
+
+
