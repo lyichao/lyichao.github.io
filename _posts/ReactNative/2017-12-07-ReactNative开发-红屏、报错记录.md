@@ -4,7 +4,7 @@ description: <center>记录在使用ReactNative日常开发中出现的红屏、
 categories:
  - ReactNative
 tags: BUG/问题
-updated: 2019-02-12 00:00:00
+updated: 2019-02-20 00:00:00
 ---
 
 > ## BUG描述
@@ -272,16 +272,16 @@ updated: 2019-02-12 00:00:00
 
 > ## BUG描述
 >
-> > ```
+> > ```bash
 > > * What went wrong:
 > > Could not resolve all files for configuration ':react-native-code-push:_internal_aapt2_binary'.
 > > > Could not resolve com.android.tools.build:aapt2:3.2.1-4818971.
-> >   Required by:
-> >       project :react-native-code-push
+> > Required by:
+> >    project :react-native-code-push
 > >    > Could not resolve com.android.tools.build:aapt2:3.2.1-4818971.
-> >       > Could not get resource 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
-> >          > Could not HEAD 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
-> >             > Connect to 127.0.0.1:1087 [/127.0.0.1] failed: Connection refused (Connection refused)
+> >    > Could not get resource 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
+> >       > Could not HEAD 'https://jcenter.bintray.com/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom'.
+> >          > Connect to 127.0.0.1:1087 [/127.0.0.1] failed: Connection refused (Connection refused)
 > > 
 > > ```
 >
@@ -295,3 +295,81 @@ updated: 2019-02-12 00:00:00
 > > ```
 > >
 > > `gradle.properties `文件中使用了代理，删除`gradle.properties`中的代理以及计算机用户目录下的`.gradle`文件夹中的代理即可。
+
+
+
+> ## BUG描述
+>
+> > ```bash
+> > undefined is not a function (evaluating '_react.default.createContext(null)')
+> > <unknown>
+> >     Context.js:10:53
+> > loadModuleImplementation
+> >     require.js:174:12
+> > guardedLoadModule
+> >     require.js:126:36
+> > _require
+> >     require.js:110:20
+> > <unknown>
+> >     Provider.js:16:23
+> > loadModuleImplementation
+> >     require.js:174:12
+> > guardedLoadModule
+> >     require.js:126:36
+> > _require
+> >     require.js:110:20
+> > <unknown>
+> >     index.js:7:47
+> > loadModuleImplementation
+> >     require.js:174:12
+> > guardedLoadModule
+> >     require.js:126:36
+> > _require
+> >     require.js:110:20
+> > <unknown>
+> >     index.js:5
+> > loadModuleImplementation
+> >     require.js:174:12
+> > guardedLoadModule
+> >     require.js:126:36
+> > _require
+> >     require.js:110:20
+> > <unknown>
+> >     index.android.js:1:8
+> > loadModuleImplementation
+> >     require.js:174:12
+> > guardedLoadModule
+> >     require.js:119:45
+> > _require
+> >     require.js:110:20
+> > global code
+> > ```
+>
+> ### 解决办法
+>
+> > 这是由于react版本引起的，猜测可能是react版本与引入`react-redux`兼容性问题所导致。
+> >
+> > 引起BUG的环境：
+> >
+> > ```bash
+> > "react": "16.0.0-alpha.12",
+> > "react-native": "0.48.1",
+> > "react-navigation": "1.0.0-beta.13",
+> > "react-redux": "^6.0.0",
+> > "redux": "^4.0.1",
+> > "redux-logger": "^3.0.6",
+> > "redux-thunk": "^2.3.0"
+> > ```
+> >
+> > 消除BUG的环境：（降低了`react-redux`版本）
+> >
+> > ```bash
+> > "react": "16.0.0-alpha.12",
+> > "react-native": "0.48.1",
+> > "react-navigation": "1.0.0-beta.13",
+> > "react-redux": "5.0.5",
+> > "redux": "^4.0.1",
+> > "redux-logger": "^3.0.6",
+> > "redux-thunk": "^2.3.0"
+> > ```
+

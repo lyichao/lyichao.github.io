@@ -1,5 +1,5 @@
 ---
-title: ReactNative开发-Redux路由框架学习记录
+title: ReactNative开发-Redux学习记录
 description: <center>学得怀疑人生系列之记录😳</center>
 categories:
  - ReactNative
