@@ -15,7 +15,20 @@ updated: 2019-02-20 00:00:00
 
 ## 什么是Redux?
 
+> 简单地说：Redux是一个状态容器管理工具。将所有状态进行统一管理，适用于多交互，多数据的场景。反之，如果应用场景不是很复杂，像页面比较少，UI交互简单这些情况就没必要使用Redux了，用了反而增加复杂性。
 
+## Redux状态管理流程
+
+> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-6bc3c8cf8909d6f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+> - action是用户触发或程序触发的一个普通对象。
+>
+> - reducer是根据action操作来做出不同的数据响应，返回一个新的state。
+> - store的最终值就是由reducer的值来确定的。
+>
+> 梳理一下流程就是：`action`->`reducer`->`新store`->`反馈到UI上更新页面`
+>
+> 
 
 
 
