@@ -29,7 +29,7 @@
     - [《Head First Java》速记](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2017/10/14/Java%E5%AD%A6%E4%B9%A0-Head-First-Java-%E9%80%9F%E8%AE%B0/)
   - JavaScript（待更新）
   - Python（待更新）
-- [计算机技能](https://lyichao.github.io/category/#/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD)
+- [技能扩展](https://lyichao.github.io/category/#/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD)
   - Git
     - [GIt常用命令](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2017/11/11/GIt%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/)
     - [Git删除远程分支上的某次提交](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2019/01/16/Git%E5%88%A0%E9%99%A4%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E4%B8%8A%E7%9A%84%E6%9F%90%E6%AC%A1%E6%8F%90%E4%BA%A4/)
