@@ -85,7 +85,6 @@ updated: 2018-12-15 00:00:00
   然后App端接收传过来的数据
 
   ```java
-  
     protected void onCreate(Bundle savedInstanceState) {
           super.onCreate(savedInstanceState);
           setContentView(R.layout.activity_main);
@@ -99,8 +98,8 @@ updated: 2018-12-15 00:00:00
               String port=uri.getPort()+"";
               String path=uri.getPath();
               String query=uri.getQuery();
-              mTextView.setText("获得的数据name="+name+"/r"+"scheme"+scheme+"/r"+"host" 					+"host"+host+"/r"+"port"+port+"/r"+"path"+path+"/r"+"query"                  					+query);
-  		}
-  	}	
+              mTextView.setText("获得的数据name="+name+"/r"+"scheme"+scheme+"/r"+"host" +
+                      "host"+host+"/r"+"port"+port+"/r"+"path"+path+"/r"+"query"+query);
+          }
   ```
 
