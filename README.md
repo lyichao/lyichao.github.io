@@ -4,6 +4,7 @@
   - [RxJava框架学习记录](https://lyichao.github.io/android/2018/04/26/Android%E5%BC%80%E5%8F%91-RxJava%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
   - [利用自定义视图给linearLayout设置下划线](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-%E5%88%A9%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%86%E5%9B%BE%E7%BB%99linearLayout%E8%AE%BE%E7%BD%AE%E4%B8%8B%E5%88%92%E7%BA%BF/)
   - [GridView实现隔行(奇偶数)换颜色功能](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C(%E5%A5%87%E5%81%B6%E6%95%B0)%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD/)
+  - [App和网页互相跳转](https://lyichao.github.io/android/2018/12/15/Android%E5%BC%80%E5%8F%91-App%E5%92%8C%E7%BD%91%E9%A1%B5%E4%BA%92%E7%9B%B8%E8%B7%B3%E8%BD%AC/)
   - [MVP学习记录](https://lyichao.github.io/android/2019/01/21/Android%E5%BC%80%E5%8F%91-MVP%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
 - [ReactNative](https://lyichao.github.io/category/#/ReactNative)
   - [FlexBox布局](https://lyichao.github.io/reactnative/2017/08/10/ReactNative%E5%BC%80%E5%8F%91-FlexBox%E5%B8%83%E5%B1%80/)
