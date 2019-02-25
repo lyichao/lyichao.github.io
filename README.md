@@ -21,7 +21,7 @@
   - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [集成CodePush热更新](https://lyichao.github.io/reactnative/2018/03/15/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90CodePush%E7%83%AD%E6%9B%B4%E6%96%B0/)（待更新）
-  - [Redux路由框架学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)（更新中）
+  - [Redux学习记录](https://lyichao.github.io/reactnative/2018/05/07/ReactNative%E5%BC%80%E5%8F%91-Redux%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
   - [性能优化](https://lyichao.github.io/reactnative/2018/05/10/ReactNative%E5%BC%80%E5%8F%91-%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/)（待更新）
   - [Console引起的卡顿问题记录](https://lyichao.github.io/reactnative/2018/12/03/ReactNative%E5%BC%80%E5%8F%91-Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/)
   - [集成极光推送jpush-react-native](https://lyichao.github.io/reactnative/2018/12/07/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native/)

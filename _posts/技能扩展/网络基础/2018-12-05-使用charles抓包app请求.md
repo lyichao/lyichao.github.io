@@ -25,6 +25,6 @@ updated: 2018-12-05 00:00:00
 
 3.首次链接charles会弹出是否允许链接的弹窗，点击允许就好。
 
-4.接下来charles上就能看到一切流过app的网络数据库啦。
+4.接下来charles上就能看到一切流过app的网络数据啦。
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-eb234add58408ff1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

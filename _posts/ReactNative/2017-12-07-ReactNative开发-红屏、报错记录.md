@@ -427,3 +427,17 @@ updated: 2019-02-20 00:00:00
 
 
 
+> ## BUG描述
+>
+> ```bash
+> Expected a component class, got [object Object].
+> ```
+>
+> ### 解决办法 
+>
+> > 类名必须大写。检查引入的类是否有小写存在。
+> >
+> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-28f6f51d078806dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> >
+> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-0afec7108c442b46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
