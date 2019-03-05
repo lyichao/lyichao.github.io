@@ -31,10 +31,6 @@ updated: 2018-01-18 00:00:00
 
 ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f7d4bb51b5908a35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-- 
-- 
-- 
-
 请求报文例子：
 
 ```http
@@ -65,16 +61,68 @@ name=world   //请求数据
 
   - 作用：声明客户端、服务器/报文的部分信息；
   - 使用方式：采用`header`（字段名）：`value`(值)的方式；
-  - 常用请求头（请求/响应报文通用）：
+  - 请求/响应报文通用`header`
 
-  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ffd173ef1b793f4c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-8cd5a33713e1b751.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-36635a975b7a4065.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  - 下面是请求头常用的`header`
 
-- **请求头**
+  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-91d4f0c982169116.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **请求数据**
 
   - 作用：存放需要发送的数据信息；
 
   - 使用方式：
 
     ![image.png](https://upload-images.jianshu.io/upload_images/8154981-d3a615ed9a49312b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+#### 响应报文
+
+> `HTTP`的响应报文包括了状态行、响应头和响应体。具体响应报文结构如下图所示：
+
+![image.png](https://upload-images.jianshu.io/upload_images/8154981-5860f4718b20ce6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+响应报文例子：
+
+```http
+HTTP/1.1 304 Not Modified
+Date：Mon, 15 Jan 2018 15:39:29
+//空行                                     
+//空响应体
+```
+
+> 接下来我们吧请求报文和响应报文放一起看下：
+
+![image.png](https://upload-images.jianshu.io/upload_images/8154981-980e427008afc600.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 如图所示，两者在头部和数据部分都类似，其中区别最大的就是请求行和状态行。
+>
+> 接下来我们详细说明下响应报文的每个部分的作用及使用方式：
+
+- **状态行**
+
+  - 作用：声明协议版本、状态码和状态码的描述信息；
+
+  - 具体介绍如下图所示：
+
+    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f30283511536760e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **响应头**
+
+  - 作用：申明客户端报文和服务器报文的部分信息；
+
+  - 使用方式：采用`header`（字段名）：`value`(值)的方式；
+
+  - 请求/响应报文通用`header`：这个部分不再贴图，详情可以看请求头部分；
+
+  - 下面是响应头常用的`header`：
+
+    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-91d4f0c982169116.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- **响应数据**
+
+  - 作用：存放需要返回客户端的数据信息；
+  - 使用方式：和请求数据是一致的。请参考请求数据部分。
+
+  
