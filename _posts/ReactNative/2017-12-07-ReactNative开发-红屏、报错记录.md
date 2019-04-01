@@ -441,3 +441,20 @@ updated: 2019-02-20 00:00:00
 > >
 > > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-0afec7108c442b46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
+
+---
+
+
+
+> ##BUG描述
+>
+> ```
+> unable to connect with remote debugger timeout while connecting to remote debugg
+> ```
+>
+> ### 解决办法
+>
+> > 如图打勾即可！
+> >
+> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f766a85f9ba300ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
