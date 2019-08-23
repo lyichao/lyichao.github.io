@@ -29,7 +29,7 @@ updated: 2019-01-21 17:30:08
 >
 > `MVP`的流程图大致如下所示：
 >
-> ![image-20190121174157334](https://upload-images.jianshu.io/upload_images/8154981-be4e55cf5abc795e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image-20190121174157334](https://upload-images.jianshu.io/upload_images/8154981-009b08010a770102.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 那么，MVP有什么优势？
 
@@ -326,4 +326,4 @@ public void loginFailed(int resultCode, final String msg) {
 
 最后放上效果图：
 
-![img](https://upload-images.jianshu.io/upload_images/8154981-5b1aecfe32c15518.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/8154981-98469f34d412b4cf?imageMogr2/auto-orient/strip)

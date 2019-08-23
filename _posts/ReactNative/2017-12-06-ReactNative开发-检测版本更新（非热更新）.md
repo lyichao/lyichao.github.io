@@ -17,19 +17,19 @@ updated: 2017-12-06 00:00:00
 
 从github上下载`react-native-app-upgrade`组件，将解压后得到的`android_upgrade`文件夹放到你需要添加版本更新功能的项目目录下`android\app\src\main\java\com\包名`下，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-1a37a94f1c0d5a03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8154981-0f9d393ca5b7333e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接着再把解压得到的`ios_upgrade`文件夹放到需要添加版本更新功能的项目目录`\ios`下，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-432df7d0c7a76dab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8154981-9fbce6ca5acc1616.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接着修改`android_upgrade`文件夹下8个类文件的包名，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-889b8dfd9c069910.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8154981-72e0562547ccf295.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如果R文件报错也要修改成和包名一致，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-384edf64f9018f00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8154981-d84986bccb05f93e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 步骤2
 
@@ -46,7 +46,7 @@ updated: 2017-12-06 00:00:00
         android:exported="true"/>
 ```
 
-![](https://upload-images.jianshu.io/upload_images/8154981-7ccf3d747db5c03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8154981-dc5d75e11b87646a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>AndroidMainfest.xml完整代码</center>
 
@@ -64,7 +64,7 @@ updated: 2017-12-06 00:00:00
 `import 项目工程包名.UpgradePackage;`
 然后在`getPackages（）`方法中添加`new UpUpgradePackage()`，如下图所示：
 
-![å¾3-1](https://upload-images.jianshu.io/upload_images/8154981-650edff5a097f710.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![å¾3-1](https://upload-images.jianshu.io/upload_images/8154981-a32aed37933c415a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -72,11 +72,11 @@ updated: 2017-12-06 00:00:00
 
 到需要添加检测版本更新的代码页面下，先导入`NativeModules`模块，如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-15569820712b8a44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/8154981-735636b3fe869384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接着在构造方法里添加APP下载地址，如下图所示：
 
-![å¾4-2](https://upload-images.jianshu.io/upload_images/8154981-c47e241b596c25ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![å¾4-2](https://upload-images.jianshu.io/upload_images/8154981-cd8e7acbf5f31bf5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接着在需要触发检测版本更新功能的地方添加
 `NativeModules.upgrade.upgrade(this.state.apkUrl);`
