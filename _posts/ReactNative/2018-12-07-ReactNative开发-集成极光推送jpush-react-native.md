@@ -62,15 +62,15 @@ dependencies {
 }
 ```
 
-![极光上申请得到的APPKey](https://upload-images.jianshu.io/upload_images/8154981-44391765c0dbea68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的APPKey](https://upload-images.jianshu.io/upload_images/8154981-263f6476427b7ce1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>极光上申请得到的APPKey</center>
 
-![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-1ac7b9b6a9870bdc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-0f8894f6bbbc931f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>极光上申请得到的applicationId</center>
 
-![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-1488557712c381bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-d2e46a6f2f375510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>极光上申请得到的applicationId</center>
 
@@ -88,7 +88,7 @@ include ':jpush-react-native'
 project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
 ```
 
-![settings.gradle完整代码](https://upload-images.jianshu.io/upload_images/8154981-6fca16f06661a415.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![settings.gradle完整代码](https://upload-images.jianshu.io/upload_images/8154981-036472cf7040828b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>settings.gradle完整代码</center>
 
@@ -99,13 +99,13 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 <meta-data android:name="JPUSH_APPKEY" android:value="${JPUSH_APPKEY}"/>
 ```
 
-![AndroidManifest.xml完整代码](https://upload-images.jianshu.io/upload_images/8154981-1656b917f3b02af2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![AndroidManifest.xml完整代码](https://upload-images.jianshu.io/upload_images/8154981-b8926edfcb14659f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>AndroidManifest.xml完整代码</center>
 
 ### 6.点击页面右上角`Sync Now`按钮，等待Android Studio编译成功过后，左侧的导航栏会多出两个包：
 
-![编译成功后引入的包](https://upload-images.jianshu.io/upload_images/8154981-bb5d28fd6f959791.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![编译成功后引入的包](https://upload-images.jianshu.io/upload_images/8154981-f00cf834ec0eca7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>编译成功后引入的包</center>
 
@@ -114,7 +114,7 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 > - 网络环境是否稳定
 > - 项目目录下的`build:gradle`文件里的`gradle版本`是否过低（个人使用3.1.4）
 
-![完整build:gradle代码](https://upload-images.jianshu.io/upload_images/8154981-d9e075debef675b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![完整build:gradle代码](https://upload-images.jianshu.io/upload_images/8154981-3b0c3dbcdeaa12e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>完整build:gradle代码</center>
 
@@ -143,7 +143,7 @@ import cn.jpush.reactnativejpush.JPushPackage;
 new JPushPackage(SHUTDOWN_TOAST, SHUTDOWN_LOG)
 ```
 
-![MainApplication.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-c803a9d2c517eee0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MainApplication.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-25fc36414933de8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>MainApplication.java完整代码</center>
 
@@ -185,7 +185,7 @@ import cn.jpush.android.api.JPushInterface;
     }
 ```
 
-![MainActivity.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-5fc966275ec126ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MainActivity.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-0eae798b4da74bf0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <center>MainActivity.java完整代码</center>
 
@@ -231,9 +231,9 @@ componentDidMount() {
 
 配置好了后可以到极光上测试：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-9030e7271d339221.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/8154981-734a6c84f7b6546e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 然后如果配置正确，打开手机上的app，就可以收到刚才的推送啦！
 
-![接收推送](https://upload-images.jianshu.io/upload_images/8154981-c9cd2ba588365631.gif?imageMogr2/auto-orient/strip)
+![接收推送](https://upload-images.jianshu.io/upload_images/8154981-158fc9f46975b1b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
