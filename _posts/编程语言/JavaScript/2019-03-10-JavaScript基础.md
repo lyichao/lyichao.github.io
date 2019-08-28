@@ -46,5 +46,26 @@ JS包括7种数据类型，其中有分为原始类型和引用类型。
 | `instanceof` |              能判断引用类型的具体是什么类型对象              |                                                              |
 | `toString`   | 利用`Object`对象的继承性，`toString()`返回`[object type]`,其中`type`是对象的类型 | `如果此方法在自定义对象中未被覆盖`，`toString`才会达到预想的效果，事实上，大部分引用类型比如`Array、Date、RegExp`等都重写了`toString`方法。 |
 
+#### 5.类型转换规则
 
+| 转换前类型  |      转换前值       | 转换后（Boolean） | 转换后（Number） | 转换后（String） |
+| :---------- | :-----------------: | :---------------: | :--------------: | :--------------: |
+| `Boolean`   |       `true`        |                   |                  |                  |
+| `Boolean`   |       `false`       |                   |                  |                  |
+| `Number`    |        `123`        |                   |                  |                  |
+| `Number`    |     `Infinity`      |                   |                  |                  |
+| `Number`    |         `0`         |                   |                  |                  |
+| `Number`    |        `NaN`        |                   |                  |                  |
+| `String`    |         ‘ ’         |                   |                  |                  |
+| `String`    |        `123`        |                   |                  |                  |
+| `String`    |    `123lyichao`     |                   |                  |                  |
+| `String`    |      `lyichao`      |                   |                  |                  |
+| `Symbol`    |     `Symbol()`      |                   |                  |                  |
+| `Null`      |       `null`        |                   |                  |                  |
+| `Undefined` |     `undefined`     |                   |                  |                  |
+| `Function`  |   `function(){}`    |                   |                  |                  |
+| `Object`    |        `{}`         |                   |                  |                  |
+| `Array`     |        `[]`         |                   |                  |                  |
+| `Array`     |    `["lyichao"]`    |                   |                  |                  |
+| `Array`     | `["123","lyichao"]` |                   |                  |                  |
 
