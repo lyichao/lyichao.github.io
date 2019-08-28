@@ -1,4 +1,3 @@
-```
 ---
 title: JavaScript基础
 description: <center>经济基础决定上层建筑，基本知识必需掌握</center>
@@ -7,7 +6,6 @@ categories:
 tags: 前端
 updated: 2019-03-10 00:00:00
 ---
-```
 
 #### 1.`JavaScript`规定了几种语言类型
 
