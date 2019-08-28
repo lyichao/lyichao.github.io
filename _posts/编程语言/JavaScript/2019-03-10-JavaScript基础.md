@@ -11,7 +11,7 @@ updated: 2019-03-10 00:00:00
 
 JS包括7种数据类型，其中有分为原始类型和引用类型。
 
-##### 原始类型：
+##### 原始类型
 
 - `Null` : 只包含一个值`null`
 - `Undefined` : 只包含一个值`undrfined`
@@ -46,7 +46,11 @@ JS包括7种数据类型，其中有分为原始类型和引用类型。
 | `instanceof` |              能判断引用类型的具体是什么类型对象              |                                                              |
 | `toString`   | 利用`Object`对象的继承性，`toString()`返回`[object type]`,其中`type`是对象的类型 | `如果此方法在自定义对象中未被覆盖`，`toString`才会达到预想的效果，事实上，大部分引用类型比如`Array、Date、RegExp`等都重写了`toString`方法。 |
 
-#### 5.类型转换规则
+#### 5.类型转换
+
+因为JS是弱类型语言，所以类型转换会经常发生。类型转换分两种：隐式转换即程序自动进行的类型转换，强制转换即我们手动进行的类型转换。
+
+##### 类型转换规则
 
 | 转换前类型  |      转换前值       | 转换后（Boolean） | 转换后（Number） | 转换后（String）  |
 | :---------- | :-----------------: | :---------------: | :--------------: | :---------------: |
@@ -69,3 +73,89 @@ JS包括7种数据类型，其中有分为原始类型和引用类型。
 | `Array`     |    `["lyichao"]`    |      `true`       |      `NaN`       |     `lyichao`     |
 | `Array`     | `["123","lyichao"]` |      `true`       |      `NaN`       |  `123`,`lyichao`  |
 
+##### if语句和逻辑语句
+
+在`if`语句和逻辑语句中，如果只有单个变量，会先讲变量转换成`Boolean`，只有下面几种情况会转换成`false`，其他都会被转换成`true`
+
+```javascript
+null,undefined,'',NaN,0,false	
+```
+
+##### 各种数学运算符
+
+我们在对各种非`Number`类型运用数学运算符（`- * /`）时，会先讲非`Number`类型转换为`Number`类型
+
+```javascript
+1 - true // 0
+1 - null //  1
+1 * undefined //  NaN
+2 * ['5'] //  10
+```
+
+⚠️<mark>注意！加法是个例外，执行加法运算时：</mark>
+
+- 1.当一侧为`String`类型时，会被识别为字符串拼接，并会优先将另一侧转换为字符串类型；
+- 2.当一侧为`Number`类型，另一侧为原始类型，则将原始类型转换为`Number`类型；
+- 3.当一侧为`Number`类型，另一侧为引用类型，则将引用类型和`Number`类型转换成字符串后拼接。
+
+```javascript
+123 + '123' // 123123   （规则1）
+123 + null  // 123    （规则2）
+123 + true // 124    （规则2）
+123 + {}  // 123[object Object]    （规则3）
+```
+
+##### ==
+
+使用`==`时，若两侧类型相同，则比较结果和`=== `相同，否则会发生隐式转换。使用`==`时会发生转换可以分为几种情况（只考虑两侧类型不同时）：
+
+- NaN
+
+  `NaN`和其他任何类型比较永远返回`false`(包括和他自己)。
+
+  ```javascript
+  NaN == NaN // false
+  ```
+
+- Boolean
+
+  `Boolean`和其他任何类型比较，`Boolean`首先被转换为`Number`类型。
+
+  ```javascript
+  true == 1  // true 
+  true == '2'  // false
+  true == ['1']  // true
+  true == ['2']  // false
+  ```
+
+  <mark>这里注意一个可能会弄混的点</mark>：`undefined、null`和`Boolean`比较，虽然`undefined、null`和`false`都很容易被想象成假值，但是他们比较结果是`false`，原因是`false`首先被转换成`0`：
+
+  ```javascript
+  undefined == false // false
+  null == false // false
+  ```
+
+- String和Number
+
+  `String`和`Number`比较，先将`String`转换为`Number`类型。
+
+  ```javascript
+  123 == '123' // true
+  '' == 0 // true
+  ```
+
+- null和undefined
+
+  `null == undefined`比较结果是`true`，除此之外，`null、undefined`和其他任何结果的比较值都为`false`。
+
+  ```javascript
+  null == undefined // true
+  null == '' // false
+  null == 0 // false
+  null == false // false
+  undefined == '' // false
+  undefined == 0 // false
+  undefined == false // false
+  ```
+
+- 原始类型和引用类型
