@@ -159,3 +159,70 @@ null,undefined,'',NaN,0,false
   ```
 
 - 原始类型和引用类型
+
+  当原始类型和引用类型做比较时，对象类型会依照`ToPrimitive`规则转换为原始类型:
+
+  ```javascript
+   '[object Object]' == {} // true
+    '1,2,3' == [1, 2, 3] // true
+  ```
+
+  来看看下面这个比较：
+
+  ```javascript
+  [] == ![] // true
+  ```
+
+  `!`的优先级高于`==`，`![]`首先会被转换为`false`，然后根据上面第三点，`false`转换成`Number`类型`0`，左侧`[]`转换为`0`，两侧比较相等。
+
+  ```javascript
+  [null] == false // true
+  [undefined] == false // true
+  ```
+
+  根据数组的`ToPrimitive`规则，数组元素为`null`或`undefined`时，该元素被当做空字符串处理，所以`[null]、[undefined]`都会被转换为`0`。
+
+  所以，说了这么多，推荐使用`===`来判断两个值是否相等...
+
+#### 为什么0.1+0.2!==0.3
+
+首先先来看下简单的函数计算
+
+```javascript
+ function judgeFloat(n, m) {
+      const binaryN = n.toString(2);
+      const binaryM = m.toString(2);
+      console.log(`${n}的二进制是    ${binaryN}`);
+      console.log(`${m}的二进制是    ${binaryM}`);
+      const MN = m + n;
+      const accuracyMN = (m * 100 + n * 100) / 100;
+      const binaryMN = MN.toString(2);
+      const accuracyBinaryMN = accuracyMN.toString(2);
+      console.log(`${n}+${m}的二进制是${binaryMN}`);
+      console.log(`${accuracyMN}的二进制是    ${accuracyBinaryMN}`);
+      console.log(`${n}+${m}的二进制再转成十进制是${to10(binaryMN)}`);
+      console.log(`${accuracyMN}的二进制是再转成十进制是${to10(accuracyBinaryMN)}`);
+      console.log(`${n}+${m}在js中计算是${(to10(binaryMN) === to10(accuracyBinaryMN)) ? '' : '不'}准确的`);
+    }
+    function to10(n) {
+      const pre = (n.split('.')[0] - 0).toString(2);
+      const arr = n.split('.')[1].split('');
+      let i = 0;
+      let result = 0;
+      while (i < arr.length) {
+        result += arr[i] * Math.pow(2, -(i + 1));
+        i++;
+      }
+      return result;
+    }
+    judgeFloat(0.1, 0.2);
+    judgeFloat(0.6, 0.7);
+```
+
+![image.png](https://upload-images.jianshu.io/upload_images/8154981-5e45fe283c81f351.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+为什么会出现这种情况呢？原因就是出现了**精度丢失**。
+
+计算机中所有的数据都是以`二进制`存储的，所以在计算时计算机要把数据先转换成`二进制`进行计算，然后在把计算结果转换成`十进制`。
+
+由上面的代码不难看出，在计算`0.1+0.2`时，`二进制`计算发生了精度丢失，导致再转换成`十进制`后和预计的结果不符。
