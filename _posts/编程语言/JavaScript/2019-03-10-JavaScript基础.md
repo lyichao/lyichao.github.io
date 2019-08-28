@@ -48,24 +48,24 @@ JS包括7种数据类型，其中有分为原始类型和引用类型。
 
 #### 5.类型转换规则
 
-| 转换前类型  |      转换前值       | 转换后（Boolean） | 转换后（Number） | 转换后（String） |
-| :---------- | :-----------------: | :---------------: | :--------------: | :--------------: |
-| `Boolean`   |       `true`        |                   |                  |                  |
-| `Boolean`   |       `false`       |                   |                  |                  |
-| `Number`    |        `123`        |                   |                  |                  |
-| `Number`    |     `Infinity`      |                   |                  |                  |
-| `Number`    |         `0`         |                   |                  |                  |
-| `Number`    |        `NaN`        |                   |                  |                  |
-| `String`    |         ‘ ’         |                   |                  |                  |
-| `String`    |        `123`        |                   |                  |                  |
-| `String`    |    `123lyichao`     |                   |                  |                  |
-| `String`    |      `lyichao`      |                   |                  |                  |
-| `Symbol`    |     `Symbol()`      |                   |                  |                  |
-| `Null`      |       `null`        |                   |                  |                  |
-| `Undefined` |     `undefined`     |                   |                  |                  |
-| `Function`  |   `function(){}`    |                   |                  |                  |
-| `Object`    |        `{}`         |                   |                  |                  |
-| `Array`     |        `[]`         |                   |                  |                  |
-| `Array`     |    `["lyichao"]`    |                   |                  |                  |
-| `Array`     | `["123","lyichao"]` |                   |                  |                  |
+| 转换前类型  |      转换前值       | 转换后（Boolean） | 转换后（Number） | 转换后（String）  |
+| :---------- | :-----------------: | :---------------: | :--------------: | :---------------: |
+| `Boolean`   |       `true`        |         -         |       `1`        |      `true`       |
+| `Boolean`   |       `false`       |         -         |       `0`        |      `false`      |
+| `Number`    |        `123`        |      `true`       |        -         |       `123`       |
+| `Number`    |     `Infinity`      |      `true`       |        -         |    `Infinity`     |
+| `Number`    |         `0`         |      `false`      |        -         |        `0`        |
+| `Number`    |        `NaN`        |      `false`      |        -         |       `NaN`       |
+| `String`    |         ‘ ’         |      `false`      |       `0`        |         -         |
+| `String`    |        `123`        |      `true`       |      `123`       |         -         |
+| `String`    |    `123lyichao`     |      `true`       |      `NaN`       |         -         |
+| `String`    |      `lyichao`      |      `true`       |      `NaN`       |         -         |
+| `Symbol`    |     `Symbol()`      |      `true`       |   `TypeError`    |    `TypeError`    |
+| `Null`      |       `null`        |      `false`      |       `0`        |      `null`       |
+| `Undefined` |     `undefined`     |      `false`      |      `NaN`       |    `undefined`    |
+| `Function`  |   `function(){}`    |      `true`       |      `NaN`       |  `function(){}`   |
+| `Object`    |        `{}`         |      `true`       |      `NaN`       | `[object Object]` |
+| `Array`     |        `[]`         |      `true`       |       `0`        |        ``         |
+| `Array`     |    `["lyichao"]`    |      `true`       |      `NaN`       |     `lyichao`     |
+| `Array`     | `["123","lyichao"]` |      `true`       |      `NaN`       |  `123`,`lyichao`  |
 
