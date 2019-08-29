@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/编程语言/JavaScript/2019-03-10-JavaScript基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/编程语言/JavaScript/2019-03-10-JavaScript基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,18 +65,19 @@
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="37" />
           <entry key="html" value="42" />
-          <entry key="md" value="887" />
+          <entry key="md" value="956" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="16" />
           <entry key="yml" value="148" />
@@ -85,7 +87,7 @@
         <counts>
           <entry key="CSS" value="37" />
           <entry key="HTML" value="42" />
-          <entry key="Markdown" value="882" />
+          <entry key="Markdown" value="951" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="16" />
@@ -100,7 +102,7 @@
           <entry key="html" value="37" />
           <entry key="lock" value="1" />
           <entry key="map" value="1" />
-          <entry key="md" value="133" />
+          <entry key="md" value="134" />
           <entry key="rnc" value="3" />
           <entry key="scss" value="15" />
           <entry key="yml" value="13" />
@@ -110,7 +112,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="37" />
-          <entry key="Markdown" value="131" />
+          <entry key="Markdown" value="132" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="RNG Compact" value="3" />
           <entry key="SCSS" value="15" />
@@ -123,11 +125,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/编程语言/JavaScript/2019-03-10-JavaScript基础.md">
+        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="329">
-                <caret line="203" column="47" lean-forward="true" selection-start-line="203" selection-start-column="47" selection-end-line="203" selection-end-column="47" />
+              <first_editor relative-caret-position="301">
+                <caret line="519" column="6" lean-forward="true" selection-start-line="519" selection-start-column="6" selection-end-line="519" selection-end-column="6" />
+                <folding>
+                  <element signature="n#!!doc" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -138,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;footer class=&quot;post-footer&quot;&gt;</find>
       <find>#### BUG描述</find>
       <find>my-copyright</find>
       <find>if page.copyright</find>
@@ -168,6 +172,7 @@
       <find>theme-next muse use-motion</find>
       <find>计算机技能</find>
       <find>Java</find>
+      <find>&amp;#</find>
     </findStrings>
     <replaceStrings>
       <replace>### BUG描述</replace>
@@ -179,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-05-10-ReactNative开发-性能优化.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-10-FlexBox布局.md" />
@@ -230,6 +234,7 @@
         <option value="$PROJECT_DIR$/_posts/风云录/2019-03-07-ReactNative面试摘录.md" />
         <option value="$PROJECT_DIR$/_posts/编程语言/JavaScript/JavaScript基础.md" />
         <option value="$PROJECT_DIR$/_posts/编程语言/JavaScript/2019-03-10-JavaScript基础.md" />
+        <option value="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" />
       </list>
     </option>
   </component>
@@ -250,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,20 +277,12 @@
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="编程语言" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="编程语言" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,11 +355,12 @@
       <workItem from="1551748342006" duration="21000" />
       <workItem from="1551948473441" duration="44000" />
       <workItem from="1566958441805" duration="1953000" />
+      <workItem from="1567043004256" duration="1465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61128000" />
+    <option name="totallyTimeSpent" value="62593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +375,7 @@
     <frame x="62" y="23" width="1858" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24768645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13990201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,7 +401,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-05-ReactNative开发-工作原理.md" />
     <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-09-26-AI训练模型之汽车故障灯拍照识别.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/2018-04-26-Android开发-RxJava框架学习记录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-08-10-ReactNative开发-生命周期.md" />
@@ -453,17 +451,17 @@
     <entry file="file://$PROJECT_DIR$/_posts/技能扩展/网络基础/2018-01-18-HTTP、HTTPS学习记录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/风云录/2019-03-07-ReactNative面试摘录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/风云录/2019-1-21-2018总结.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="220">
             <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -518,16 +516,7 @@
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/编程语言/JavaScript/JavaScript基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="593">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/编程语言/JavaScript/JavaScript基础.md" />
     <entry file="file://$PROJECT_DIR$/_posts/编程语言/Java/2017-10-14-Java学习-《Head First Java》速记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -561,8 +550,21 @@
     <entry file="file://$PROJECT_DIR$/_posts/编程语言/JavaScript/2019-03-10-JavaScript基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="329">
-            <caret line="203" column="47" lean-forward="true" selection-start-line="203" selection-start-column="47" selection-end-line="203" selection-end-column="47" />
+          <first_editor relative-caret-position="307">
+            <caret line="202" column="29" lean-forward="true" selection-start-line="202" selection-start-column="29" selection-end-line="202" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="301">
+            <caret line="519" column="6" lean-forward="true" selection-start-line="519" selection-start-column="6" selection-end-line="519" selection-end-column="6" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
