@@ -458,3 +458,62 @@ updated: 2019-02-20 00:00:00
 > > 如图打勾即可！
 > >
 > > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f766a85f9ba300ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+---
+
+
+
+>## BUG描述
+>
+>```objective-c
+>node_modules/react-native/Libraries/WebSocket/libfishhook.a'
+>```
+>
+>### 解决办法
+>
+>> - 1.在Xcode中找到RCTWebSocket.xcodeproj文件
+>>
+>>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-6fea260351fe6083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>> - 2.找到Build Phases的Link Binary With Libraries, 点击减号去掉libfishhook.a引用
+>>
+>>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-3b5a51eee5edf08f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>> - 3.再加回去: 点加号把libfishhook.a引用
+>>
+>>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5aab920f41d19528.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>> - 4.clean build 以及重新编译，OK解决！
+
+
+
+---
+
+>## BUG描述
+>
+>```objective-c
+>":CFBundleIdentifier", Does Not Exist
+>```
+>
+>### 解决办法
+>
+>- 1.打开Project settings
+>
+>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ecdd3575bb31594e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+>- 2.点击Advanced按钮
+>
+>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5d38c485630e9d4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+>- 3.选择Custom，然后点击下拉选择Relative to Workspace
+>
+>- 4.修改Build/Products 为 build/Build/Products
+>
+>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-7b8279a5a2919b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>
+>- 5.clean build 以及重新编译，OK解决！
+>
+>
+

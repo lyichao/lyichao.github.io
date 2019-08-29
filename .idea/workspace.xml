@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md" afterDir="false" />
-    </list>
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -60,7 +57,7 @@
     <session id="2130226683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.2" value="4" />
@@ -128,8 +125,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="519" column="6" lean-forward="true" selection-start-line="519" selection-start-column="6" selection-end-line="519" selection-end-column="6" />
+              <first_editor relative-caret-position="213">
+                <caret line="515" column="32" selection-start-line="515" selection-start-column="32" selection-end-line="515" selection-end-column="32" />
                 <folding>
                   <element signature="n#!!doc" expanded="true" />
                 </folding>
@@ -245,9 +242,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
+    <option name="x" value="52" />
     <option name="y" value="23" />
-    <option name="width" value="1858" />
+    <option name="width" value="1868" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -355,12 +352,12 @@
       <workItem from="1551748342006" duration="21000" />
       <workItem from="1551948473441" duration="44000" />
       <workItem from="1566958441805" duration="1953000" />
-      <workItem from="1567043004256" duration="1465000" />
+      <workItem from="1567043004256" duration="3047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62593000" />
+    <option name="totallyTimeSpent" value="64175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,8 +557,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-01-01-ReactNative开发-开发规范.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="519" column="6" lean-forward="true" selection-start-line="519" selection-start-column="6" selection-end-line="519" selection-end-column="6" />
+          <first_editor relative-caret-position="213">
+            <caret line="515" column="32" selection-start-line="515" selection-start-column="32" selection-end-line="515" selection-end-column="32" />
             <folding>
               <element signature="n#!!doc" expanded="true" />
             </folding>
