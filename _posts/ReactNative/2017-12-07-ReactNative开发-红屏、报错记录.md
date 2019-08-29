@@ -499,21 +499,21 @@ updated: 2019-02-20 00:00:00
 >
 >### 解决办法
 >
->- 1.打开Project settings
->
->  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ecdd3575bb31594e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
->
->- 2.点击Advanced按钮
->
->  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5d38c485630e9d4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
->
->- 3.选择Custom，然后点击下拉选择Relative to Workspace
->
->- 4.修改Build/Products 为 build/Build/Products
->
->  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-7b8279a5a2919b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
->
->- 5.clean build 以及重新编译，OK解决！
+>>- 1.打开Project settings
+>>
+>>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ecdd3575bb31594e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>>- 2.点击Advanced按钮
+>>
+>>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5d38c485630e9d4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>>- 3.选择Custom，然后点击下拉选择Relative to Workspace
+>>
+>>- 4.修改Build/Products 为 build/Build/Products
+>>
+>>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-7b8279a5a2919b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>
+>>- 5.clean build 以及重新编译，OK解决！
 >
 >
 
