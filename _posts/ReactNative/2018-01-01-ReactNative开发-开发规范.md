@@ -192,7 +192,7 @@ updated: 2019-01-25 17:30:08
 
    5.1 当你必须使用函数表达式（或传递一个匿名函数）时，使用箭头函数符号。
 
-   > 为什么?因为箭头函数创造了新的一个 `this` 执行环境（译注：参考 [Arrow functions - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 和 [ES6 arrow functions, syntax and lexical scoping](http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/)），通常情况下都能满足你的需求，而且这样的写法更为简洁。
+   > 为什么?因为箭头函数创造了新的一个 `this` 执行环境，通常情况下都能满足你的需求，而且这样的写法更为简洁。
    >
    > 为什么不？如果你有一个相当复杂的函数，你或许可以把逻辑部分转移到一个函数声明上。
 
@@ -523,7 +523,7 @@ updated: 2019-01-25 17:30:08
 
    3.1 对于JSX属性值总是使用双引号(`"`), 其他均使用单引号(`'`). 
    为什么? HTML属性也是用双引号, 因此JSX的属性也遵循此约定.
-  
+
 
 4. ## Spacing 空格
 
@@ -601,8 +601,6 @@ updated: 2019-01-25 17:30:08
    };
    
    ```
-
-   `// bad function SFC({ foo, bar, children }) {   return <div>{foo}{bar}{children}</div>; } SFC.propTypes = {   foo: PropTypes.number.isRequired,   bar: PropTypes.string,   children: PropTypes.node, };  // good function SFC({ foo, bar }) {   return <div>{foo}{bar}</div>; } SFC.propTypes = {   foo: PropTypes.number.isRequired,   bar: PropTypes.string, }; SFC.defaultProps = {   bar: '',   children: null, };`
 
 6. ## Parentheses 括号
 
