@@ -16,7 +16,7 @@
   - [检测版本更新（非热更新）](https://lyichao.github.io/reactnative/2017/12/06/ReactNative%E5%BC%80%E5%8F%91-%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0-%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0/)
   - [红屏、报错记录](https://lyichao.github.io/reactnative/2017/12/07/ReactNative%E5%BC%80%E5%8F%91-%E7%BA%A2%E5%B1%8F-%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%95/)
   - [监听设备返回键](https://lyichao.github.io/reactnative/2017/12/10/ReactNative%E5%BC%80%E5%8F%91-%E7%9B%91%E5%90%AC%E8%AE%BE%E5%A4%87%E8%BF%94%E5%9B%9E%E9%94%AE/)
-  - [开发规范](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)（待更新）
+  - [开发规范](https://lyichao.github.io/reactnative/2018/01/01/ReactNative%E5%BC%80%E5%8F%91-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/)
   - [工作原理](https://lyichao.github.io/reactnative/2018/01/05/ReactNative%E5%BC%80%E5%8F%91-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/)（待更新）
   - [解决键盘遮挡问题](https://lyichao.github.io/reactnative/2018/02/07/ReactNative%E5%BC%80%E5%8F%91-%E8%A7%A3%E5%86%B3%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%98/)
   - [集成Pushy热更新](https://lyichao.github.io/reactnative/2018/03/13/ReactNative%E5%BC%80%E5%8F%91-%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B0/)
