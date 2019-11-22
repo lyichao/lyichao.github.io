@@ -29,7 +29,7 @@ updated: 2019-01-21 17:30:08
 >
 > `MVP`的流程图大致如下所示：
 >
-> ![image-20190121174157334](https://upload-images.jianshu.io/upload_images/8154981-009b08010a770102.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image-20190121174157334](https://upload-images.jianshu.io/upload_images/8154981-7550cb8dd1bcaaa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 那么，MVP有什么优势？
 
