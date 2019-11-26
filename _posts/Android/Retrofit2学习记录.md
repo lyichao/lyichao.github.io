@@ -1,5 +1,5 @@
 ---
-title: Android开发-Retrofit2入门
+title: Android开发-Retrofit2学习记录
 description: <center>记录Retrofit2的基本认知与使用</center>
 categories:
  - Android
