@@ -59,7 +59,7 @@ updated: 2019-01-21 17:30:08
 
 ### 创建一个空项目，名为MVPDemo好了。然后在项目下的mvpdemo文件夹中新增`model`、`view`、`presenter`三个文件夹，分别对应实体层、视图层、逻辑控制层。然后在`view`文件夹中创建`activity`文件夹，并把`MainActivity`拖至其中。如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-cc6cc0ad1c6712d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://raw.githubusercontent.com/lyichao/lyichao.github.io/master/BlogPic/8154981-cc6cc0ad1c6712d3%20(1).png)
 
 ### 在`activity_main.xml`中添加三个组件，用于输入账号密码和登录
 
@@ -154,7 +154,7 @@ updated: 2019-01-21 17:30:08
   >
   > 3.接着在`impl`文件夹内创建`LoginPresenterImpl`类并实现`LoginActivityPresenter`接口的登录方法；
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-534f89bcb21313dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://raw.githubusercontent.com/lyichao/lyichao.github.io/master/BlogPic/8154981-534f89bcb21313dc.png)
 
 
 
@@ -191,7 +191,7 @@ public class LoginPresenterImpl implements LoginActivityPresenter {
 >
 > 3.在接口类`ILoginActivity`中添加两个方法，一个用于验证成功后返回，一个用于验证失败后返回
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-f31687d3f07b81c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://raw.githubusercontent.com/lyichao/lyichao.github.io/master/BlogPic/8154981-f31687d3f07b81c9.png)
 
 
 
