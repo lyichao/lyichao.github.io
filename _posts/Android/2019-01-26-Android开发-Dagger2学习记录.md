@@ -46,31 +46,32 @@ updated: 2019-01-26 10:22:12
 >
 >**在描述第一组注解的作用前，我们来看一则例子：**
 >
->>​	假设领导下午要出去视察民情，需要一辆公交车，司机就不用请了，领导做表率自己开，小秘把领导的指示告诉了车场调度员。
->>   找辆公交车要停放在停车场(`Bus要注入到ParkingActivity`)，停车场不管公交车按什么路线停车(`ParkingActivity不管Bus是如何注入的`)，车场调度员会负责好管理(`Dagger2容器会将Bus的注入到ParkingActivity`)。
+>>&ensp;&ensp;&ensp;&ensp;假设领导下午要出去视察民情，需要一辆公交车，司机就不用请了，领导做表率自己开，小秘把领导的指示告诉了车场调度员。
+>>
+>>&ensp;&ensp;&ensp;&ensp;找辆公交车要停放在停车场(`Bus要注入到ParkingActivity`)，停车场不管公交车按什么路线停车(`ParkingActivity不管Bus是如何注入的`)，车场调度员会负责好管理(`Dagger2容器会将Bus的注入到ParkingActivity`)。
 >
 >```java
 >public class Bus {
->@Inject
->public Bus() {
->}
+>	@Inject
+>	public Bus() {
+>	}
 >}
 >
 >public class ParkingActivity extends Activity {
->@Inject
->Bus mBus;
->@Override
->protected void onCreate(Bundle savedInstanceState) {
->   super.onCreate(savedInstanceState);
->   setContentView(R.layout.activity_dagger);
->   DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
->   ((TextView) findViewById(R.id.text)).setText(mBus.toString());
->}
+>	@Inject
+>	Bus mBus;
+>	@Override
+>	protected void onCreate(Bundle savedInstanceState) {
+>  		super.onCreate(savedInstanceState);
+>   		setContentView(R.layout.activity_dagger);
+>   		DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
+>   		((TextView) findViewById(R.id.text)).setText(mBus.toString());
+>	}
 >}
 >
 >@Component
 >public interface ParkingComponent {
->void inject(ParkingActivity activity);
+>	void inject(ParkingActivity activity);
 >}
 >```
 >
@@ -96,15 +97,15 @@ updated: 2019-01-26 10:22:12
 >Bus mBus;
 >@Inject
 >public void injectBus(Bus bus) {
->mBus = bus;
+>	mBus = bus;
 >}
 >```
 >
->​	方法注入的参数同样由`Dagger2`容器提供，以上代码的目的与第一点介绍的属性注入一样，都是为
+>&ensp;&ensp;&ensp;&ensp;方法注入的参数同样由`Dagger2`容器提供，以上代码的目的与第一点介绍的属性注入一样，都是为了注入`mBus`，如果目的是注入属性的话，方法注入和属性注入基本没有区别，属性注入是`Dagger2`中使用最多的一个注入方式。
 >
->了注入`mBus`，如果目的是注入属性的话，方法注入和属性注入基本没有区别，属性注入是`Dagger2`中使用最多的一个注入方式。
->  那么什么情况下应该使用方法注入？比如依赖需要this对象的时候，方法注入可以提供安全的this对象。
->  注意，`Dagger2`容器先调用属性注入，然后再方法注入，若把示例代码`mBus`的`@Inject`取消注释，此时`mBus`会注入2次，并且两次注入的Bus也不相同。
+>&ensp;&ensp;&ensp;&ensp;那么什么情况下应该使用方法注入？比如依赖需要this对象的时候，方法注入可以提供安全的this对象。
+>
+>&ensp;&ensp;&ensp;&ensp;注意，`Dagger2`容器先调用属性注入，然后再方法注入，若把示例代码`mBus`的`@Inject`取消注释，此时`mBus`会注入2次，并且两次注入的Bus也不相同。
 >
 >（3）注解在构造方法中表示此类能为`Dagger2`提供依赖关系，`Dagger2`可以使用这个构造方法构建对象(Bus的来历)：
 >
@@ -126,8 +127,9 @@ updated: 2019-01-26 10:22:12
 >
 >**第二组注解例子：**
 >
->>领导想着不妥，自己没开过公交车，为保险起见还是赶紧吩咐小秘，去给配个公交车司机，小秘自然跟车场调度员说了。
->>   车场调度员一想，只是比之前多了一个步骤，给公交车配置一个司机(Bus类添加String类型Driver构造方法)。于是打电话给开公交车的隔壁老王，老王自然是应诺了下来，于是乎，对例子一的代码做一下修改。
+>>&ensp;&ensp;&ensp;&ensp;领导想着不妥，自己没开过公交车，为保险起见还是赶紧吩咐小秘，去给配个公交车司机，小秘自然跟车场调度员说了。
+>>
+>>&ensp;&ensp;&ensp;&ensp;车场调度员一想，只是比之前多了一个步骤，给公交车配置一个司机(Bus类添加String类型Driver构造方法)。于是打电话给开公交车的隔壁老王，老王自然是应诺了下来，于是乎，对例子一的代码做一下修改。
 >
 >```java
 >public class Bus {
