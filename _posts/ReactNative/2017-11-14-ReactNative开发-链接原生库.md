@@ -17,7 +17,7 @@ updated: 2017-11-14 00:00:00
 
 #### （1）一是`MyNativeModule`类（名字自定义）并继承`ReactContextBaseJavaModule`，用来存放需要在React Native中调用的方法。如下图所示：
 #### （2）一是`MyReactPackage`类（名字自定义）并实现接口`ReactPackage`包管理器，并把在第一步中创建的类加到原生模块`NativeModule`列表里。如下图所示：
-![](https://upload-images.jianshu.io/upload_images/8154981-42830f02e8def8e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://lc-lf8Y5Iic.cn-n1.lcfile.com/a9c87fa8007c358d4e3c/%E9%93%BE%E6%8E%A5%E5%8E%9F%E7%94%9F%E5%BA%931.png)
 
 #### （3）把在第二步中创建的包管理器添加到`ReactPackage`列表里（指在`getPackage`方法里面）
 
@@ -181,7 +181,7 @@ public class MainActivity extends ReactActivity {
 
 接着需要在RN中`import`原生模块
 
-![img](https://upload-images.jianshu.io/upload_images/8154981-cf047a64eb5ac83b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![img](http://lc-lf8Y5Iic.cn-n1.lcfile.com/ca1a5e090df150ee67f5/%E9%93%BE%E6%8E%A5%E5%8E%9F%E7%94%9F%E5%BA%932.png)
 
 最后在相应的位置调用即可：
 

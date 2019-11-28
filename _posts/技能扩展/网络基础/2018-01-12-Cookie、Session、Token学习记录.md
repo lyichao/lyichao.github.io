@@ -30,7 +30,7 @@ updated: 2018-01-12 00:00:00
 > - （2）服务端接受客户端请求后，发送一个http响应头到客户端，这个响应头其中就包含Set-Cookie头部
 > - （3）在客户端发起的第二次请求（注意：如果服务器需要我们带上Cookie，我们就需要在（2）步骤上面拿到这个Cookie然后作为请求头一起发起第二次请求），提供给了服务器端可以用来唯一标识客户端身份的信息。这时，服务端也就可以判断客户端是否启用了Cookie。
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-248b657aa8b18854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](http://lc-lf8Y5Iic.cn-n1.lcfile.com/3378d5742b47386a024f/Cookie%E3%80%81Session%E3%80%81Token%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%951.png)
 
 ## Session
 

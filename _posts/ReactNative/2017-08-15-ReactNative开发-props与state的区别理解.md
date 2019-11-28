@@ -71,7 +71,7 @@ class Father extends Component{  
 
 > 可以看到，父类中的`name`和`tel`是子类的属性，然后我们用父类的属性传递给子类，那么父类的属性就是`Child`。也就是说我们设置父类的属性时，它的子类`props`属性也会被赋值。
 >
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-309a46ed2a8975bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](http://lc-lf8Y5Iic.cn-n1.lcfile.com/9ee88e5ea5a65f0f0803/props%E4%B8%8Estate%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E7%90%86%E8%A7%A3.png)
 
 ### 什么是state？
 

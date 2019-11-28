@@ -27,4 +27,4 @@ updated: 2018-12-05 00:00:00
 
 4.接下来charles上就能看到一切流过app的网络数据啦。
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-eb234add58408ff1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](http://lc-lf8Y5Iic.cn-n1.lcfile.com/0c90438ced7c390b449e/%E4%BD%BF%E7%94%A8charles%E6%8A%93%E5%8C%85app%E8%AF%B7%E6%B1%821.png)

@@ -11,7 +11,7 @@ updated: 2019-02-20 00:00:00
 >
 > > error: bundling failed: "Unable to resolve module react-native/Libraries/EventEmitter/EventEmitter
 >
-> ![](https://upload-images.jianshu.io/upload_images/8154981-af021544c224ad8d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![](<http://lc-lf8y5iic.cn-n1.lcfile.com/56edace0e537d9d30462/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%951.png>)
 >
 > ### 解决办法
 >
@@ -39,7 +39,7 @@ updated: 2019-02-20 00:00:00
 > >
 > >Configuration with name 'default' not found.
 >
-> ![](https://upload-images.jianshu.io/upload_images/8154981-4d2bf9abea5f6ffb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![](<http://lc-lf8y5iic.cn-n1.lcfile.com/52b5736d452bc85f2ef6/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%952.png>)
 >
 > ### 解决办法
 >
@@ -73,7 +73,7 @@ updated: 2019-02-20 00:00:00
 > >
 > >Could not expand ZIP 'C:\Users\user\WebstormProjects\gs2000e_rn\node_modules\react-native-image-picker\android\build\outputs\aar\react-native-image-picker-release.aar'.
 >
-> ![](https://upload-images.jianshu.io/upload_images/8154981-f9ab45f239ca58d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![](<http://lc-lf8y5iic.cn-n1.lcfile.com/787dc62c36fb2552b1f7/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%953.png>)
 >
 > ### 解决办法
 >
@@ -110,7 +110,7 @@ updated: 2019-02-20 00:00:00
 > >com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to finalize session : INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.union signatures do not match the previously installed version; ignoring!
 > >```
 >
-> ![](https://upload-images.jianshu.io/upload_images/8154981-ab13d74752a3f371.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![](<http://lc-lf8y5iic.cn-n1.lcfile.com/47c65eb207c551b2e748/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%954.png>)
 >
 > ### 解决办法
 >
@@ -219,7 +219,7 @@ updated: 2019-02-20 00:00:00
 > >
 > >如图所示：
 >
-> ![](https://upload-images.jianshu.io/upload_images/8154981-58ca6b024ed5ffc7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![](<http://lc-lf8y5iic.cn-n1.lcfile.com/206aa79f78892fae1cac/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%955.png>)
 >
 > ### 解决办法
 >
@@ -437,9 +437,9 @@ updated: 2019-02-20 00:00:00
 >
 > > 类名必须大写。检查引入的类是否有小写存在。
 > >
-> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-28f6f51d078806dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> > ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/09ac6dd17a23518c1d03/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%956.png>)
 > >
-> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-0afec7108c442b46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> > ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/c9a53a5263ae153e2456/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%957.png>)
 
 
 
@@ -457,7 +457,7 @@ updated: 2019-02-20 00:00:00
 >
 > > 如图打勾即可！
 > >
-> > ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f766a85f9ba300ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> > ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/7cc29b3674bab7f1d55d/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%958.png>)
 
 
 
@@ -475,15 +475,15 @@ updated: 2019-02-20 00:00:00
 >
 >> - 1.在Xcode中找到RCTWebSocket.xcodeproj文件
 >>
->>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-6fea260351fe6083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>   ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/7dade65690135ab92be3/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%959.png>)
 >>
 >> - 2.找到Build Phases的Link Binary With Libraries, 点击减号去掉libfishhook.a引用
 >>
->>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-3b5a51eee5edf08f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>   ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/06e04bbdd057f9f09ce6/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%9510.png>)
 >>
 >> - 3.再加回去: 点加号把libfishhook.a引用
 >>
->>   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5aab920f41d19528.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>   ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/6adca72e706cd94de030/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%9511.png>)
 >>
 >> - 4.clean build 以及重新编译，OK解决！
 
@@ -501,17 +501,17 @@ updated: 2019-02-20 00:00:00
 >
 >>- 1.打开Project settings
 >>
->>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ecdd3575bb31594e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>  ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/fb43412e829e03e33aed/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%9512.png>)
 >>
 >>- 2.点击Advanced按钮
 >>
->>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5d38c485630e9d4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>  ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/ba0ec8e367c5ac9d10d9/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%9513.png>)
 >>
 >>- 3.选择Custom，然后点击下拉选择Relative to Workspace
 >>
 >>- 4.修改Build/Products 为 build/Build/Products
 >>
->>  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-7b8279a5a2919b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>>  ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/357b26b18d8a86033a03/%E7%BA%A2%E5%B1%8F%E3%80%81%E6%8A%A5%E9%94%99%E8%AE%B0%E5%BD%9514.png>)
 >>
 >>- 5.clean build 以及重新编译，OK解决！
 >

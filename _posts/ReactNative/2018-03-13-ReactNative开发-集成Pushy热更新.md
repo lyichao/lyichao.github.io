@@ -21,7 +21,7 @@ updated: 2018-03-15 00:00:00
 >
 > - **热更新流程图**
 >
->   ![image.png](https://upload-images.jianshu.io/upload_images/8154981-ca833169b5824a96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+>   ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/d56e9dc3b73b0ef0b0af/%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B01.png>)
 
 ## 配置Pushy
 
@@ -178,7 +178,7 @@ updated: 2018-03-15 00:00:00
 >
 > <br/>
 >
-> > **3.**选择更新版本时机。Pushy为我们提供了`switchVersion`（立即更新版本）和`switchVersionLater`（下次启动再更新版本）两个方法，这里大家就根据业务需求选取一个就好了。当然，也可以![timg.gif](https://upload-images.jianshu.io/upload_images/8154981-4136264e53aa30df.gif?imageMogr2/auto-orient/strip)
+> > **3.**选择更新版本时机。Pushy为我们提供了`switchVersion`（立即更新版本）和`switchVersionLater`（下次启动再更新版本）两个方法，这里大家就根据业务需求选取一个就好了。当然，也可以![timg.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/102aefa599239704e158/%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B02.gif>)
 >
 > <br/>
 >
@@ -371,10 +371,10 @@ pushy uploadApk android/app/build/outputs/apk/app-release.apk
 >
 > 到此为止，发布已经完成，Pushy官网平台就会出刚刚发布的哟应用，APP上也可以收到更新消息啦！
 >
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-b00d1311e286e703.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/2a4ff6616c4b2b1e6fa7/%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B03.png>)
 >
 > <center>Pushy官网平台收到的更新包</center>
 >
-> ![ymmfd-561ao.gif](https://upload-images.jianshu.io/upload_images/8154981-ddcbb6ac70a9c99a.gif?imageMogr2/auto-orient/strip)
+> ![ymmfd-561ao.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/3a4f14caf00003751f89/%E9%9B%86%E6%88%90Pushy%E7%83%AD%E6%9B%B4%E6%96%B03.gif>)
 
 ### IOS平台（待更新）

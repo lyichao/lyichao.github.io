@@ -62,15 +62,15 @@ dependencies {
 }
 ```
 
-![极光上申请得到的APPKey](https://upload-images.jianshu.io/upload_images/8154981-263f6476427b7ce1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的APPKey](<http://lc-lf8y5iic.cn-n1.lcfile.com/20a60381e1ac93687a44/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native1.png>)
 
 <center>极光上申请得到的APPKey</center>
 
-![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-0f8894f6bbbc931f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的applicationId](<http://lc-lf8y5iic.cn-n1.lcfile.com/b5cc0d490528364b721c/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native2.png>)
 
 <center>极光上申请得到的applicationId</center>
 
-![极光上申请得到的applicationId](https://upload-images.jianshu.io/upload_images/8154981-d2e46a6f2f375510.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![极光上申请得到的applicationId](<http://lc-lf8y5iic.cn-n1.lcfile.com/9b9f5a8c27caf64cf888/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native3.png>)
 
 <center>极光上申请得到的applicationId</center>
 
@@ -88,7 +88,7 @@ include ':jpush-react-native'
 project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/jpush-react-native/android')
 ```
 
-![settings.gradle完整代码](https://upload-images.jianshu.io/upload_images/8154981-036472cf7040828b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![settings.gradle完整代码](<http://lc-lf8y5iic.cn-n1.lcfile.com/1f80717c16bc66d444aa/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native4.png>)
 
 <center>settings.gradle完整代码</center>
 
@@ -99,13 +99,13 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 <meta-data android:name="JPUSH_APPKEY" android:value="${JPUSH_APPKEY}"/>
 ```
 
-![AndroidManifest.xml完整代码](https://upload-images.jianshu.io/upload_images/8154981-b8926edfcb14659f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![AndroidManifest.xml完整代码](<http://lc-lf8y5iic.cn-n1.lcfile.com/95590bdc069c19c904a9/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native5.png>)
 
 <center>AndroidManifest.xml完整代码</center>
 
 ### 6.点击页面右上角`Sync Now`按钮，等待Android Studio编译成功过后，左侧的导航栏会多出两个包：
 
-![编译成功后引入的包](https://upload-images.jianshu.io/upload_images/8154981-f00cf834ec0eca7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![编译成功后引入的包](<http://lc-lf8y5iic.cn-n1.lcfile.com/3106cd17d1c55127a8f5/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native6.png>)
 
 <center>编译成功后引入的包</center>
 
@@ -114,7 +114,7 @@ project(':jpush-react-native').projectDir = new File(rootProject.projectDir, '..
 > - 网络环境是否稳定
 > - 项目目录下的`build:gradle`文件里的`gradle版本`是否过低（个人使用3.1.4）
 
-![完整build:gradle代码](https://upload-images.jianshu.io/upload_images/8154981-3b0c3dbcdeaa12e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![完整build:gradle代码](<http://lc-lf8y5iic.cn-n1.lcfile.com/6228eda4da1d1bcf9ddb/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native7.png>)
 
 <center>完整build:gradle代码</center>
 
@@ -143,7 +143,7 @@ import cn.jpush.reactnativejpush.JPushPackage;
 new JPushPackage(SHUTDOWN_TOAST, SHUTDOWN_LOG)
 ```
 
-![MainApplication.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-25fc36414933de8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MainApplication.java完整代码](<http://lc-lf8y5iic.cn-n1.lcfile.com/e54d7f2859a6bfe6b928/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native8.png>)
 
 <center>MainApplication.java完整代码</center>
 
@@ -185,7 +185,7 @@ import cn.jpush.android.api.JPushInterface;
     }
 ```
 
-![MainActivity.java完整代码](https://upload-images.jianshu.io/upload_images/8154981-0eae798b4da74bf0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MainActivity.java完整代码](<http://lc-lf8y5iic.cn-n1.lcfile.com/71b1086553b84543de86/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native9.png>)
 
 <center>MainActivity.java完整代码</center>
 
@@ -231,9 +231,9 @@ componentDidMount() {
 
 配置好了后可以到极光上测试：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-734a6c84f7b6546e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/c5674da6b81d9951c1ba/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native10.png>)
 
 然后如果配置正确，打开手机上的app，就可以收到刚才的推送啦！
 
-![接收推送](https://upload-images.jianshu.io/upload_images/8154981-158fc9f46975b1b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![接收推送](<http://lc-lf8y5iic.cn-n1.lcfile.com/1e0e98fa878cabb90a33/%E9%9B%86%E6%88%90%E6%9E%81%E5%85%89%E6%8E%A8%E9%80%81jpush-react-native11.gif>)
 

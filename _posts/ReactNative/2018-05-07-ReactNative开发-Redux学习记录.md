@@ -21,13 +21,13 @@ updated: 2019-02-20 00:00:00
 
 ## 基本概念
 
-> 首先，在未使用Redux的项目中，组件（父组件、子组件、孙子组件）间都各自含有的`state`和`props`属性。而且`props`是从父级组件上**分发下来**的属性，只能是从上往下走；而`state`是组件**内部**自行管理的状态属性。因此整个应用并没有数据向上回溯的能力。要么从上面单向得到并向下级分发，要么自行内部消化刷新页面状态。正如下图所示：![image.png](https://upload-images.jianshu.io/upload_images/8154981-fdf3c02ac9c6db0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> 首先，在未使用Redux的项目中，组件（父组件、子组件、孙子组件）间都各自含有的`state`和`props`属性。而且`props`是从父级组件上**分发下来**的属性，只能是从上往下走；而`state`是组件**内部**自行管理的状态属性。因此整个应用并没有数据向上回溯的能力。要么从上面单向得到并向下级分发，要么自行内部消化刷新页面状态。正如下图所示：![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/236bf15c762c3dd786bd/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%951.png>)
 >
 > 因此，一但应用场景的页面较多，交互复杂的时候，每次都去通过`state`重新刷新页面引起页面变化，就会出现卡卡卡卡卡的情况。
 >
 > 那么，采用了`Redux`后又会怎样呢？先来看一下App结构图：
 >
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f6db3205e483de42.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/95988cfb7692c4558080/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%952.png>)
 >
 > 最后，从上图可以看到采用Redux后的App结构比没采用Redux时在最外包裹了一层`Provider`。接下来我们就从这个`Prodiver`开始，逐个解析`Store`、`Action`和`Reducer`。
 >
@@ -47,7 +47,7 @@ updated: 2019-02-20 00:00:00
 
 ## Redux状态管理流程
 
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-67c5bdc3f12e01f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/d55c625e805c8cce6299/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%953.png>)
 >
 > <mark>梳理一下流程就是：用户触发action→部署触发的action后通知reducer→reducer→新store→反馈到UI上更新页面</mark>
 
@@ -96,7 +96,7 @@ updated: 2019-02-20 00:00:00
 
 > 在根目录下新建一个app文件夹，然后在这个文件夹下再分别创建`actions`、`contants`、`pages`、`reducers`、`store`文件夹。如下图所示：
 >
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-28382591193c55a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/30dda9f6902154f7565b/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%954.png>)
 
 #### 步骤四：统一入口，利用react-navigation实现页面跳转
 
@@ -133,7 +133,7 @@ updated: 2019-02-20 00:00:00
 >
 > 接着在`pages`文件夹下添加登陆页和首页：
 >
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-9f30297b3ab38a5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/ee6f5250b70cc23acbb5/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%955.png>)
 >
 > 接着继续在Login文件夹下的index.js文件里添加如下内容：
 >
@@ -725,7 +725,7 @@ updated: 2019-02-20 00:00:00
 
 ### Demo效果演示
 
-![untitled11.gif](https://upload-images.jianshu.io/upload_images/8154981-99b85100a8f04614.gif?imageMogr2/auto-orient/strip)
+![untitled11.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/0b3b2f6c0b3f1cf5d9a3/Redux%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%956.gif>)
 
 
 

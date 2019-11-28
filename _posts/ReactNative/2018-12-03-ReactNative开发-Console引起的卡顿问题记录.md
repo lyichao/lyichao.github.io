@@ -15,7 +15,7 @@ updated: 2018-12-03 00:00:00
 
 ## 为什么会出现卡顿现象？
 
-> ![image.png](https://upload-images.jianshu.io/upload_images/8154981-5daa84c48ae13692.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/3601df74ab742f7ef5ff/Console%E5%BC%95%E8%B5%B7%E7%9A%84%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%951.png>)
 >
 > 首先，要知道。动画或电影一类视频之所以看起来会是连贯的，是因为我们人的眼睛具有视觉残留的特性，当光对视网膜所产生的视觉在光停止作用后，仍保留一段时间的现象。其停留间隔大约的二十四分之一秒。因为当一张静态的图片稳定快速变化时，人眼看起来就是连贯的。当图片翻动变化的速度越快，人眼看起来就会越流畅，当中翻动的每一张图片我们称之为“帧”。
 >

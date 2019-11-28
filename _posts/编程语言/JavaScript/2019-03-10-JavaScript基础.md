@@ -219,7 +219,7 @@ null,undefined,'',NaN,0,false
     judgeFloat(0.6, 0.7);
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-5e45fe283c81f351.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](http://lc-lf8Y5Iic.cn-n1.lcfile.com/1bab7b8fa2334b74174f/JavaScript%E5%9F%BA%E7%A1%801.png)
 
 为什么会出现这种情况呢？原因就是出现了**精度丢失**。
 

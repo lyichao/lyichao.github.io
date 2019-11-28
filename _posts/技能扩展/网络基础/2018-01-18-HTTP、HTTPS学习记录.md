@@ -13,13 +13,13 @@ updated: 2018-01-18 00:00:00
 
 ## 什么是HTTP协议？
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-273a80790d6d9587.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/48a0e6f46d94f85f5e79/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%951.png>)
 
 ## 工作方式
 
 > 请求/响应工作方式，如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-5d4e0fa71f5f2233.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/073cc1fd0c37a174e812/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%952.png>)
 
 ## 报文结构
 
@@ -29,7 +29,7 @@ updated: 2018-01-18 00:00:00
 
 > 请求报文由请求行、请求头和请求体组成。具体报文结构如下所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-f7d4bb51b5908a35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/e303871f4f1849acd0fa/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%953.png>)
 
 请求报文例子：
 
@@ -51,11 +51,11 @@ name=world   //请求数据
 
   - 组成介绍：
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-8a285dbb4a1f98e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/27c90cde0b87cec697d1/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%954.png>)
 
     <mark>此处特意说明GET、POST方法的区别：</mark>
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-9478233c74902828.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/7adf755f3abf753637c9/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%955.png>)
 
 - **请求头（header）**
 
@@ -63,11 +63,11 @@ name=world   //请求数据
   - 使用方式：采用`header`（字段名）：`value`(值)的方式；
   - 请求/响应报文通用`header`
 
-  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-8cd5a33713e1b751.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/7006b1d8085f0156c020/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%956.png>)
 
   - 下面是请求头常用的`header`
 
-  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-91d4f0c982169116.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/826d4f218335dc0f97dc/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%957.png>)
 
 - **请求数据**
 
@@ -75,13 +75,13 @@ name=world   //请求数据
 
   - 使用方式：
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-d3a615ed9a49312b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/97caf33c5a9847ab5d09/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%958.png>)
 
 #### 响应报文
 
 > `HTTP`的响应报文包括了状态行、响应头和响应体。具体响应报文结构如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-5860f4718b20ce6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/066dddc72a458a190e8e/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%959.png>)
 
 响应报文例子：
 
@@ -94,7 +94,7 @@ Date：Mon, 15 Jan 2018 15:39:29
 
 > 接下来我们吧请求报文和响应报文放一起看下：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-980e427008afc600.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/1b62ea35afc06d6eede2/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9510.png>)
 
 > 如图所示，两者在头部和数据部分都类似，其中区别最大的就是请求行和状态行。
 >
@@ -106,7 +106,7 @@ Date：Mon, 15 Jan 2018 15:39:29
 
   - 具体介绍如下图所示：
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-f30283511536760e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/94093fffacd28906bd2d/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9511.png>)
 
 - **响应头**
 
@@ -118,7 +118,7 @@ Date：Mon, 15 Jan 2018 15:39:29
 
   - 下面是响应头常用的`header`：
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/8154981-91d4f0c982169116.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/186ee7c4b0ca6df10e8f/HTTP%E3%80%81HTTPS%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%9512.png>)
 
 - **响应数据**
 

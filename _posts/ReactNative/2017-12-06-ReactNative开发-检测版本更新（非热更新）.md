@@ -17,19 +17,19 @@ updated: 2017-12-06 00:00:00
 
 从github上下载`react-native-app-upgrade`组件，将解压后得到的`android_upgrade`文件夹放到你需要添加版本更新功能的项目目录下`android\app\src\main\java\com\包名`下，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-0f9d393ca5b7333e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](<http://lc-lf8y5iic.cn-n1.lcfile.com/8bb5770b12c0882391ae/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%891.png>)
 
 接着再把解压得到的`ios_upgrade`文件夹放到需要添加版本更新功能的项目目录`\ios`下，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-9fbce6ca5acc1616.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](<http://lc-lf8y5iic.cn-n1.lcfile.com/b8295b07b94535cec8b2/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%892.png>)
 
 接着修改`android_upgrade`文件夹下8个类文件的包名，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-72e0562547ccf295.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](<http://lc-lf8y5iic.cn-n1.lcfile.com/1d648d00ab9042c79d3f/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%893.png>)
 
 如果R文件报错也要修改成和包名一致，如下图所示：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-d84986bccb05f93e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](<http://lc-lf8y5iic.cn-n1.lcfile.com/eec54211a2e6c35bc40d/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%894.png>)
 
 ### 步骤2
 
@@ -46,7 +46,7 @@ updated: 2017-12-06 00:00:00
         android:exported="true"/>
 ```
 
-![](https://upload-images.jianshu.io/upload_images/8154981-dc5d75e11b87646a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](<http://lc-lf8y5iic.cn-n1.lcfile.com/59a1d79e46584aef29cc/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%895.png>)
 
 <center>AndroidMainfest.xml完整代码</center>
 
@@ -64,7 +64,7 @@ updated: 2017-12-06 00:00:00
 `import 项目工程包名.UpgradePackage;`
 然后在`getPackages（）`方法中添加`new UpUpgradePackage()`，如下图所示：
 
-![å¾3-1](https://upload-images.jianshu.io/upload_images/8154981-a32aed37933c415a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![å¾3-1](<http://lc-lf8y5iic.cn-n1.lcfile.com/2bdcfbd05b94e841276e/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%896.png>)
 
 
 
@@ -72,11 +72,11 @@ updated: 2017-12-06 00:00:00
 
 到需要添加检测版本更新的代码页面下，先导入`NativeModules`模块，如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-735636b3fe869384.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/5d417e3a364a2b0139f9/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%897.png>)
 
 接着在构造方法里添加APP下载地址，如下图所示：
 
-![å¾4-2](https://upload-images.jianshu.io/upload_images/8154981-cd8e7acbf5f31bf5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![å¾4-2](<http://lc-lf8y5iic.cn-n1.lcfile.com/da5e4c8054c179630507/%E6%A3%80%E6%B5%8B%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%EF%BC%88%E9%9D%9E%E7%83%AD%E6%9B%B4%E6%96%B0%EF%BC%898.png>)
 
 接着在需要触发检测版本更新功能的地方添加
 `NativeModules.upgrade.upgrade(this.state.apkUrl);`

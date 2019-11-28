@@ -15,22 +15,22 @@ updated: 2018-02-07 00:00:00
 
 - IOS
 
-  ![QQ20190213-174228-HD.gif](https://upload-images.jianshu.io/upload_images/8154981-c8e4de69259938f6.gif?imageMogr2/auto-orient/strip)
+  ![QQ20190213-174228-HD.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/8b85aeba5d1dc212553c/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%981.gif>)
 
 - Android
 
-![QQ20190213-175722-HD.gif](https://upload-images.jianshu.io/upload_images/8154981-d88fb22347d399ca.gif?imageMogr2/auto-orient/strip)
+![QQ20190213-175722-HD.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/523487069596d310f273/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%982.gif>)
 
 ## IOS实现自动管理键盘弹/收问题
 
 > 解决办法很简单，直接将此文件夹拖到项目的`IOS目录`下即可实现IOS自动管理键盘遮挡文本框的问题。
 >
 > - **[下载文件](<https://codeload.github.com/lyichao/IQKeyboardManager/zip/master>)**，解压，然后解压后得到的`IQKeyboardManager`文件夹
-> - ![image.png](https://upload-images.jianshu.io/upload_images/8154981-06f2d43fc342bf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-> - ![image.png](https://upload-images.jianshu.io/upload_images/8154981-79f0d51a53c06b51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-> - 添加后会在左侧的导航栏看到已添加的`IQKeyboardManager`文件夹。![image.png](https://upload-images.jianshu.io/upload_images/8154981-02b418bdd700c62e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> - ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/7fbfe21b963642a66aa0/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%984.png>)
+> - ![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/991eac8f4d76bd058699/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%985.png>)
+> - 添加后会在左侧的导航栏看到已添加的`IQKeyboardManager`文件夹。![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/be96ec1c27c47d735c6a/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%986.png>)
 > - 最后重新运行项目即可！
 
 ## 处理后的效果
 
-![QQ20190213-173849-HD.gif](https://upload-images.jianshu.io/upload_images/8154981-c936d2fe2e7dcb2a.gif?imageMogr2/auto-orient/strip)
+![QQ20190213-173849-HD.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/0f75fc3d1137d9d10343/%E8%A7%A3%E5%86%B3IOS%E9%94%AE%E7%9B%98%E9%81%AE%E6%8C%A1%E9%97%AE%E9%A2%983.gif>)
