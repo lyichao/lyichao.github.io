@@ -42,9 +42,41 @@ updated: 2019-01-26 10:22:12
 
 ## 少废话！入正题！
 
->`Dagger2`提供的注解：`@Inject`、`@Module`、`@Component`、`@Provieds`
+>`Dagger2`提供的注解：`@Inject`、`@Component ` 和 `@Module`、`@Provieds`
 >
->#### `@Inject`：
+>在描述第一组注解的作用前，我们来看一则例子：
+>
+>>​	假设领导下午要出去视察民情，需要一辆公交车，司机就不用请了，领导做表率自己开，小秘把领导的指示告诉了车场调度员。
+>>   找辆公交车要停放在停车场(`Bus要注入到ParkingActivity`)，停车场不管公交车按什么路线停车(`ParkingActivity不管Bus是如何注入的`)，车场调度员会负责好管理(`Dagger2容器会将Bus的注入到ParkingActivity`)。
+>
+>```java
+>public class Bus {
+>    @Inject
+>    public Bus() {
+>    }
+>}
+>
+>public class ParkingActivity extends Activity {
+>    @Inject
+>    Bus mBus;
+>    @Override
+>    protected void onCreate(Bundle savedInstanceState) {
+>        super.onCreate(savedInstanceState);
+>        setContentView(R.layout.activity_dagger);
+>        DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
+>        ((TextView) findViewById(R.id.text)).setText(mBus.toString());
+>    }
+>}
+>
+>@Component
+>public interface ParkingComponent {
+>    void inject(ParkingActivity activity);
+>}
+>```
+>
+>`DaggerParkingComponent`类是编译过后`Dagger2`自动生成的，是`ParkingComponent`的实现类，可以说`DaggerParkingComponent`就是实际的车场调度员，`ParkingComponent`是对车场调度员的约束，在`onCreate`方法完成了注入过程。
+>
+>##### `@Inject`的作用
 >
 >（1）注解在属性中表示该属性需要依赖注入，不能使用`private`修饰，示例代码表示需要注入属性
 >
@@ -84,13 +116,17 @@ updated: 2019-01-26 10:22:12
 >
 >​	如果有多个构造函数，只能注解一个，否则编译报错。
 >
->#### `@Component`:
+>##### `@Component`的作用
 >
->一般用来注解接口，被注解的接口在编译时会生成相应的实例。实例名称一般以`Dagger`为前缀，作为所需注入依赖和提供依赖之间的桥梁，把提供的依赖(Bus)注入到所需注入的依赖中。
+>一般用来注解接口，被注解的接口在编译时会生成相应的实例。实例名称一般以`Dagger`为前缀，作为所需注入依赖(`ParkingActivity的mBus属性`)和提供依赖(`Bus类构造方法`)之间的桥梁，把提供的依赖)注入到所需注入的依赖中(`ParkingActivity的mBus属性`)。
 >
->#### `@Module`:
+><mark>例子总结：通俗说，就是`Dagger2`的容器，在例子中是车场调度员，把公交车和停车场联系在一起。车场调度员知道停车场要准备一辆公交车，停车场不需要知道车是哪里来的，也不需要知道怎么停，车场调度员找好车后，停在车位上就完事，等候领导用车就可以了。</mark>
 >
->#### `@Provieds`:
+><mark>两个`@Inject`注解形成了依赖关系，`@Component`作为连接这个关系的桥梁存在，寻找到依赖并且注入，并且注入与被注入之间互不干涉，经过编译`@Component`生成`Dagger`为前缀的实例，调用实例的方法。</mark>
+>
+>##### `@Module`的作用
+>
+>##### `@Provieds`的作用
 >
 >
 
