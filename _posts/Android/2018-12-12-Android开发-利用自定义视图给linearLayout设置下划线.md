@@ -11,7 +11,7 @@ updated: 2018-12-12 15:24:12
 
 > 问题：想在`linearLayout`布局下给`tab`设置下划线，效果如下：
 
-![](https://upload-images.jianshu.io/upload_images/8154981-33b5ecfc0166a36f.png)
+![](http://lc-lf8Y5Iic.cn-n1.lcfile.com/3ab2cfa400421256825d/%E5%88%A9%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%86%E5%9B%BE%E7%BB%99linearLayout%E8%AE%BE%E7%BD%AE%E4%B8%8B%E5%88%92%E7%BA%BF.png)
 
 ## 分析&总结
 

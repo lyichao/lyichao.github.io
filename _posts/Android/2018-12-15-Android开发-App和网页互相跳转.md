@@ -35,7 +35,7 @@ updated: 2018-12-15 00:00:00
   scheme://host:port/path
   ```
 
-  ![image.png](https://upload-images.jianshu.io/upload_images/8154981-75a9bdd4b0c95570.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![image.png](http://lc-lf8Y5Iic.cn-n1.lcfile.com/1410037253411f1f9214/App%E5%92%8C%E7%BD%91%E9%A1%B5%E4%BA%92%E7%9B%B8%E8%B7%B3%E8%BD%AC.png)
 
   举个具体的例子：
 

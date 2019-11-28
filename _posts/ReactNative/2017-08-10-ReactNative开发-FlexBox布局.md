@@ -19,7 +19,7 @@ updated: 2017-08-10 00:00:00
 
 > 用来解决父盒子和子盒子之间的约束关系，如下图所示：
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-b3b99d307f54bcc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/413851bd37f44005729a/FlexBox%E5%B8%83%E5%B1%801.png>)
 
 > 这里的父盒子和子盒子是相对来说的，任何一个盒子都可能成为父/子盒子，这要看此时该盒子是属于外层空间还是里层空间
 
@@ -35,7 +35,7 @@ updated: 2017-08-10 00:00:00
 >
 > 属性值：`row`、`row-reverse`、`column`、`column-reverse`
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-33b91d20977ad8a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/0b6769d19ea31f371ca2/FlexBox%E5%B8%83%E5%B1%802.png>)
 
 > 如图解所示：
 >
@@ -55,7 +55,7 @@ updated: 2017-08-10 00:00:00
 >
 > 属性值：`flex-start`、`flex-end`、`center`、`space-between`、`space-around`
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-607ac882fa12476a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/c09e8d4d493d8ffe5f54/FlexBox%E5%B8%83%E5%B1%807.png>)
 
 > 如图解所示：
 >
@@ -77,7 +77,7 @@ updated: 2017-08-10 00:00:00
 >
 > 属性值：`flex-start`、`flex-end`、`center`、`baseline`、`stretch`
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-7b3ee7d3bd585af1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/03a2e0595b3e3c99298f/FlexBox%E5%B8%83%E5%B1%804.png>)
 
 > 如图解所示：
 >
@@ -97,7 +97,7 @@ updated: 2017-08-10 00:00:00
 >
 > 属性值：nowrap、 wrap、wrap-reverse
 
-![image.png](https://upload-images.jianshu.io/upload_images/8154981-f10b7bca5d8ddfe1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](<http://lc-lf8y5iic.cn-n1.lcfile.com/8d6b765035db03453d25/FlexBox%E5%B8%83%E5%B1%805.png>)
 
 > 如图解所示：  
 >
@@ -178,5 +178,5 @@ updated: 2017-08-10 00:00:00
 > ```
 >
 
-![1548828942423.gif](https://upload-images.jianshu.io/upload_images/8154981-715c1db0513d885f.gif?imageMogr2/auto-orient/strip)
+![1548828942423.gif](<http://lc-lf8y5iic.cn-n1.lcfile.com/2ab221025d0d0c44879b/FlexBox%E5%B8%83%E5%B1%806.gif>)
 

@@ -11,7 +11,7 @@ updated: 2018-12-12 17:39:08
 
 > 今天在开发中遇上这样一个布局问题，需要在表格中实现隔行换色功能，如下图所示：
 
-![隔行换色效果图](https://upload-images.jianshu.io/upload_images/8154981-e9df9ca21f2fb2a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![隔行换色效果图](http://lc-lf8Y5Iic.cn-n1.lcfile.com/cf141e329dcdf5a6b3d1/GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C%28%E5%A5%87%E5%81%B6%E6%95%B0%29%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD1.png)
 
 ## 分析
 
@@ -24,7 +24,7 @@ updated: 2018-12-12 17:39:08
 
 > 利用excel制作一个6*6的表格，然后填上每个格子代表的位置
 
-![](https://upload-images.jianshu.io/upload_images/8154981-30708e07cefee475.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://lc-lf8Y5Iic.cn-n1.lcfile.com/736cbd0c03e265e1802e/GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C%28%E5%A5%87%E5%81%B6%E6%95%B0%29%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD2.png)
 
 > 从excel表格可以得知到：
 > - 需要变换浅绿色的是格子位置为0-5，12-17，24-29
