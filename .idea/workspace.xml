@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -188,7 +189,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="246" column="63" lean-forward="false" selection-start-line="246" selection-start-column="63" selection-end-line="246" selection-end-column="63" />
+              <caret line="252" column="63" lean-forward="false" selection-start-line="252" selection-start-column="63" selection-end-line="252" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -814,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="246" column="63" lean-forward="false" selection-start-line="246" selection-start-column="63" selection-end-line="246" selection-end-column="63" />
+          <caret line="252" column="63" lean-forward="false" selection-start-line="252" selection-start-column="63" selection-end-line="252" selection-end-column="63" />
           <folding />
         </state>
       </provider>
