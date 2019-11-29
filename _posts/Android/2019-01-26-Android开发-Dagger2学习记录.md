@@ -40,7 +40,7 @@ updated: 2019-01-26 10:22:12
 
 >- 相对于其他框架，有一定学习成本，需要时间消化。我自己就看了好多好多文章。。。。
 
-## 少废话！入正题！
+## 基础篇
 
 >`Dagger2`提供的注解：`@Inject`、`@Component ` 和 `@Module`、`@Provieds`
 >
@@ -62,10 +62,10 @@ updated: 2019-01-26 10:22:12
 >	Bus mBus;
 >	@Override
 >	protected void onCreate(Bundle savedInstanceState) {
->  		super.onCreate(savedInstanceState);
->   		setContentView(R.layout.activity_dagger);
->   		DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
->   		((TextView) findViewById(R.id.text)).setText(mBus.toString());
+>		super.onCreate(savedInstanceState);
+>		setContentView(R.layout.activity_dagger);
+>		DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
+>		((TextView) findViewById(R.id.text)).setText(mBus.toString());
 >	}
 >}
 >
@@ -133,38 +133,38 @@ updated: 2019-01-26 10:22:12
 >
 >```java
 >public class Bus {
->    private String driver;
->    @Inject
->    public Bus(String driver) {
->        this.driver = driver;
->    }
+>private String driver;
+>@Inject
+>public Bus(String driver) {
+>   this.driver = driver;
+>}
 >}
 >
 >public class ParkingActivity extends Activity {
->    @Inject
->    Bus mBus;
->    @Override
->    protected void onCreate(Bundle savedInstanceState) {
->        super.onCreate(savedInstanceState);
->        setContentView(R.layout.activity_dagger);
->        DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
->        ((TextView) findViewById(R.id.text)).setText(mBus.toString());//重写Bus的toString()方法能看到打印出"隔壁老王"，注入成功
->    }
+>@Inject
+>Bus mBus;
+>@Override
+>protected void onCreate(Bundle savedInstanceState) {
+>   super.onCreate(savedInstanceState);
+>   setContentView(R.layout.activity_dagger);
+>   DaggerParkingComponent.create().inject(this);//DaggerParkingComponent类需要编译才会生成
+>   ((TextView) findViewById(R.id.text)).setText(mBus.toString());//重写Bus的toString()方法能看到打印出"隔壁老王"，注入成功
+>}
 >}
 >
 >@Component(modules = ParkingModule.class)
 >public interface ParkingComponent {
->    void inject(ParkingActivity activity);
+>void inject(ParkingActivity activity);
 >}
 >
 >@Module
 >public class ParkingModule {
->    public ParkingModule() {
->    }
->    @Provides
->    public String provideDriver() {
->        return "隔壁老王";
->    }
+>public ParkingModule() {
+>}
+>@Provides
+>public String provideDriver() {
+>   return "隔壁老王";
+>}
 >}
 >```
 >
@@ -179,76 +179,80 @@ updated: 2019-01-26 10:22:12
 >`@Provides`仅能注解方法，且方法所在类要有`@Module`注解。注解后的方法表示`Dagger2`能用该方法实例对象提供依赖。按照惯例，`@Provides`方法的命名以`provide`为前缀，方便阅读管理。
 >
 ><mark>例子二总结：首先@Component注解包含了一个ParkingModule类，表示Dagger2可以从ParkingModule类查找依赖，Dagger2会自动查找ParkingModule类有@Provides注释的方法实例依赖，最后完成注入</mark>
->   <mark>**注意1**，如果在ParkingModule里面同样提供Bus的依赖，Dagger2会优先在@Module注解的类上查找依赖，没有的情况才会去查询类的@Inject构造方法，如下面的代码，则Bus的司机就是小王而不是老王了。</mark>
+>  <mark>**注意1**，如果在ParkingModule里面同样提供Bus的依赖，Dagger2会优先在@Module注解的类上查找依赖，没有的情况才会去查询类的@Inject构造方法，如下面的代码，则Bus的司机就是小王而不是老王了。</mark>
 >
 >```java
 >@Module
 >public class ParkingModule {
->    public ParkingModule() {
->    }
->    @Provides
->    public String provideDriver() {
->        return "隔壁老王";
->    }
->    @Provides
->    public Bus provideBus() {
->        return new Bus("楼上小王");
->    }
+>public ParkingModule() {
+>}
+>@Provides
+>public String provideDriver() {
+>   return "隔壁老王";
+>}
+>@Provides
+>public Bus provideBus() {
+>   return new Bus("楼上小王");
+>}
 >}
 >```
 >
 >**注意2**，`@Module`类可以从构造方法传入依赖，`@Provides`方法也可以有依赖关系。
->   `@Provides`方法也有依赖关系的情况，`Dagger2`会继续查找可以提供依赖的方法，类似于一种递归的状态，一步一步返回实例。如下代码，`ParkingModule`构造方法传入`driver`为`provideDriver`方法提供依赖返回，`provideDriver`返回`driver`作为`provideBus`方法的依赖实例`Bus`。
->   `ParkingModule`加入有参构造方法后，调用方式也需要变成，现在司机就变成了楼下老李了。
+>  `@Provides`方法也有依赖关系的情况，`Dagger2`会继续查找可以提供依赖的方法，类似于一种递归的状态，一步一步返回实例。如下代码，`ParkingModule`构造方法传入`driver`为`provideDriver`方法提供依赖返回，`provideDriver`返回`driver`作为`provideBus`方法的依赖实例`Bus`。
+>  `ParkingModule`加入有参构造方法后，调用方式也需要变成，现在司机就变成了楼下老李了。
 >
 >```java
 >@Module
 >public class ParkingModule {
->    private String driver;
->    public ParkingModule(String driver) {
->        this.driver = driver;
->    }
->    @Provides
->    public String provideDriver() {
->        return driver;
->    }
->    @Provides
->    public Bus provideBus(String driver) {
->        return new Bus(driver);
->    }
+>private String driver;
+>public ParkingModule(String driver) {
+>   this.driver = driver;
 >}
->    //调用方式改变
->    DaggerParkingComponent.builder().parkingModule(new ParkingModule("楼下老李")).build().inject(this);
+>@Provides
+>public String provideDriver() {
+>   return driver;
+>}
+>@Provides
+>public Bus provideBus(String driver) {
+>   return new Bus(driver);
+>}
+>}
+>//调用方式改变
+>DaggerParkingComponent.builder().parkingModule(new ParkingModule("楼下老李")).build().inject(this);
 >```
 >
+>##### 总结
 >
+>>最后，来总结下依赖注入的大致流程：
+>>
+>>1：查找`Module`中是否有该实例的`@Provides`方法。
+>>
+>>- 1.1：有，走第2点。
+>>- 1.2：没有，查找该实例是否有@Inject构造方法。
+>>
+>>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;1.2.1：有，走第3点。
+>>
+>>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;1.2.2：没有，注入失败。
+>>
+>>2：`@Provides`方法是否有参数
+>>
+>>- 2.1：有，则回到第1点查找每个参数的依赖
+>>- 2.2：没有，实例该类返回一次依赖
+>>
+>>3：`@Inject`构造方法是否有参数
+>>
+>>- 3.1：有，则回到第1点查找每个参数的依赖
+>>- 3.2：没有，实例该类返回一次依赖
+>>
+>>4：以上流程递归返回注入目标的所有依赖，最后依赖注入。
 
 ## 总结
 
->最后，来总结下依赖注入的大致流程：
 >
->1：查找`Module`中是否有该实例的`@Provides`方法。
 >
->- 1.1：有，走第2点。
->
->- 1.2：没有，查找该实例是否有@Inject构造方法。
->
->  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;1.2.1：有，走第3点。
->
->  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;1.2.2：没有，注入失败。
->
->2：`@Provides`方法是否有参数
->
->- 2.1：有，则回到第1点查找每个参数的依赖
->- 2.2：没有，实例该类返回一次依赖
->
->3：`@Inject`构造方法是否有参数
->
->- 3.1：有，则回到第1点查找每个参数的依赖
->- 3.2：没有，实例该类返回一次依赖
->
->4：以上流程递归返回注入目标的所有依赖，最后依赖注入。
->
+
+## 进阶篇
+
 >
 
 ## 参考链接
