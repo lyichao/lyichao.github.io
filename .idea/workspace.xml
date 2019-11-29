@@ -4,6 +4,7 @@
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/Android/Retrofit2学习记录.md" afterPath="$PROJECT_DIR$/_posts/Android/Retrofit2学习记录.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -178,8 +179,8 @@
       <file leaf-file-name="Retrofit2学习记录.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Android/Retrofit2学习记录.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,7 +189,7 @@
       <file leaf-file-name="2019-01-26-Android开发-Dagger2学习记录.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="549">
               <caret line="250" column="1" lean-forward="false" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
               <folding />
             </state>
@@ -355,8 +356,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,8 +387,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -775,8 +776,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/Android/Dagger2学习记录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/Retrofit2学习记录.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -807,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="549">
           <caret line="250" column="1" lean-forward="false" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
           <folding />
         </state>

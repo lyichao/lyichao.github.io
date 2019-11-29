@@ -9,7 +9,7 @@ updated: 2019-01-25 13:25:22
 
 鸿洋写的`Retrofit`文章已经很全面了，感觉没必要自己再去做记录（偷个懒^_^）
 
-[Retrofit2 完全解析 探索与okhttp之间的关系](<https://blog.csdn.net/lmj623565791/article/details/51304204>)
+传送门：[Retrofit2 完全解析 探索与okhttp之间的关系](<https://blog.csdn.net/lmj623565791/article/details/51304204>)
 
 下面再给几篇参考文章
 
