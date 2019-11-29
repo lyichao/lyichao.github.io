@@ -1,6 +1,6 @@
 ---
 title: Android开发-Dagger2学习记录
-description: <center>从入门到放弃</center>
+description: <center>从入门到差点放弃。。。。</center>
 categories:
  - Android
 tags: 框架
