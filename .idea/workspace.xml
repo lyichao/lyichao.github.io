@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-自问自答.md" afterPath="$PROJECT_DIR$/_posts/Android/Android开发-自问自答.md" />
+      <change beforePath="$PROJECT_DIR$/博客规范.md" afterPath="$PROJECT_DIR$/博客规范.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -175,11 +177,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-10-Android开发-自问自答.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-10-Android开发-自问自答.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="博客规范.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/博客规范.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,16 +222,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="874">
               <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-02-02-Android开发-疑难杂症.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Android/2018-02-02-Android开发-疑难杂症.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -275,7 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-React Native开发-集成极光推送jpush-react-native.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md" />
@@ -326,6 +327,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/Android/Android开发-自问自答.md" />
         <option value="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" />
+        <option value="$PROJECT_DIR$/博客规范.md" />
       </list>
     </option>
   </component>
@@ -724,13 +726,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-25-Android开发-Retrofit2入门.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/Okhttp3入门.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/Retrofit2入门.md" />
-    <entry file="file://$PROJECT_DIR$/博客规范.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -815,8 +810,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博客规范.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
