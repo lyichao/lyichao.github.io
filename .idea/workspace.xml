@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md" afterPath="$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -122,11 +124,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-10-10-Android开发-自问自答.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-10-Android开发-自问自答.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="151" column="1" lean-forward="true" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+            <state relative-caret-position="1708">
+              <caret line="152" column="24" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019-03-15-ReactNative面试摘录.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -182,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/ReactNative/2017-11-14-ReactNative开发-链接原生库.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-React Native开发-集成极光推送jpush-react-native.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md" />
         <option value="$PROJECT_DIR$/_site/assets/css/main.css" />
@@ -233,6 +244,7 @@
         <option value="$PROJECT_DIR$/_posts/Android/Android开发-自问自答.md" />
         <option value="$PROJECT_DIR$/博客规范.md" />
         <option value="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" />
+        <option value="$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md" />
       </list>
     </option>
   </component>
@@ -552,7 +564,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2017-12-10-ReactNative开发-监听设备返回键.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-02-07-ReactNative开发-解决IOS键盘遮挡问题.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-05-07-ReactNative开发-Redux路由框架学习记录.md" />
     <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-03-13-ReactNative开发-集成Pushy热更新.md" />
@@ -712,8 +723,16 @@
     <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-自问自答.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="151" column="1" lean-forward="true" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
+        <state relative-caret-position="1708">
+          <caret line="152" column="24" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>

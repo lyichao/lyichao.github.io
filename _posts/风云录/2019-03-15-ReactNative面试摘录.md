@@ -1,6 +1,6 @@
 ---
-title: ReactNative面试摘录
-description: <center>摘录面试React Native被问到的问题</center>
+title: 面试摘录
+description: <center>摘录面试App开发岗位被问到的问题</center>
 categories:
  - 风云录
 tags: 生活记录
