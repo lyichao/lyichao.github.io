@@ -2,28 +2,21 @@
 
 - [Android](https://lyichao.github.io/category/#/Android)
   - [常用布局介绍%使用](<https://lyichao.github.io/android/2017/10/10/Android%E5%BC%80%E5%8F%91-%E8%BD%AC%E8%BD%BD-%E5%B8%B8%E7%94%A8%E5%B8%83%E5%B1%80-%E4%BB%8B%E7%BB%8D-&-%E4%BD%BF%E7%94%A8-%E9%99%84-%E5%B1%9E%E6%80%A7%E6%9F%A5%E8%AF%A2/>)
-
   - [自问自答](<https://lyichao.github.io/android/2017/10/10/Android%E5%BC%80%E5%8F%91-%E8%87%AA%E9%97%AE%E8%87%AA%E7%AD%94/>)
-
+  - [四大组件之Activity入门]()
+  - [四大组件之BroadcastReceiver入门]()
+  - [四大组件之ContentProvider入门]()
+  - [四大组件之Service入门]()
   - [疑难杂症](<https://lyichao.github.io/android/2018/02/02/Android%E5%BC%80%E5%8F%91-%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/>)
-
   - [RxJava框架学习记录](https://lyichao.github.io/android/2018/04/26/Android%E5%BC%80%E5%8F%91-RxJava%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
-
   - [利用自定义视图给linearLayout设置下划线](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-%E5%88%A9%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%86%E5%9B%BE%E7%BB%99linearLayout%E8%AE%BE%E7%BD%AE%E4%B8%8B%E5%88%92%E7%BA%BF/)
-
   - [GridView实现隔行(奇偶数)换颜色功能](https://lyichao.github.io/android/2018/12/12/Android%E5%BC%80%E5%8F%91-GridView%E5%AE%9E%E7%8E%B0%E9%9A%94%E8%A1%8C(%E5%A5%87%E5%81%B6%E6%95%B0)%E6%8D%A2%E9%A2%9C%E8%89%B2%E5%8A%9F%E8%83%BD/)
-
   - [App和网页互相跳转](https://lyichao.github.io/android/2018/12/15/Android%E5%BC%80%E5%8F%91-App%E5%92%8C%E7%BD%91%E9%A1%B5%E4%BA%92%E7%9B%B8%E8%B7%B3%E8%BD%AC/)
-
   - [MVP学习记录](https://lyichao.github.io/android/2019/01/21/Android%E5%BC%80%E5%8F%91-MVP%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/)
-
   - [Retrofit2学习记录](<https://lyichao.github.io/android/2019/01/25/Android%E5%BC%80%E5%8F%91-Retrofit2%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/>)
-
   - [okhttp3学习记录]()
-
   - [Dagger2学习记录](<https://lyichao.github.io/android/2019/01/26/Android%E5%BC%80%E5%8F%91-Dagger2%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/>)
 
-    
 - [ReactNative](https://lyichao.github.io/category/#/ReactNative)
   - [FlexBox布局](https://lyichao.github.io/reactnative/2017/08/10/ReactNative%E5%BC%80%E5%8F%91-FlexBox%E5%B8%83%E5%B1%80/)
   - [生命周期](https://lyichao.github.io/reactnative/2017/08/10/ReactNative%E5%BC%80%E5%8F%91-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)

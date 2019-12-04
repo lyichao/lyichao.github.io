@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_posts/风云录/2019-03-15-ReactNative面试摘录.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-四大组件入门与使用.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -125,21 +126,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-10-10-Android开发-自问自答.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
+      <file leaf-file-name="Android开发-四大组件之BroadcastReceiver入门.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之BroadcastReceiver入门.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="161">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md">
+      <file leaf-file-name="Android开发-四大组件之ContentProvider入门.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之ContentProvider入门.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Android开发-四大组件之Service入门.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Service入门.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-12-Android开发-四大组件之Activity入门.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-12-Android开发-四大组件之Activity入门.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -196,10 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_site/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/_sass/_schemes/Mist/_base.scss" />
-        <option value="$PROJECT_DIR$/_posts/ReactNative/基础知识/2017-08-15-ReactNative基础知识-props与state的区别理解.md" />
-        <option value="$PROJECT_DIR$/_sass/_common/scaffolding/base.scss" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2017-08-10-ReactNative开发-FlexBox布局.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-05-07-ReactNative开发-Redux路由框架学习记录.md" />
         <option value="$PROJECT_DIR$/_posts/Android/2019-01-21-Android框架-MVP学习记录.md" />
@@ -247,6 +274,10 @@
         <option value="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" />
         <option value="$PROJECT_DIR$/_posts/风云录/2017-09-28-毕业后的我.md" />
         <option value="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md" />
+        <option value="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Activity入门与使用.md" />
+        <option value="$PROJECT_DIR$/_posts/Android/2017-10-12-Android开发-四大组件之BroadcastReceiver入门.md" />
+        <option value="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Service入门.md" />
+        <option value="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之ContentProvider入门.md" />
       </list>
     </option>
   </component>
@@ -319,6 +350,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lyichao.github.io\_posts\Android" />
       <recent name="$PROJECT_DIR$/_posts/风云录" />
       <recent name="$PROJECT_DIR$/_posts/计算机技能" />
       <recent name="$PROJECT_DIR$/_posts/ReactNative/基础知识" />
@@ -499,6 +531,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -507,7 +540,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3315393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3315393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17334037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -565,11 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2018-12-03-ReactNative开发-Console引起的卡顿问题记录.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-01-12-Cookie、Session、Token学习记录.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/网络基础/2018-12-05-使用charles抓包app请求.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2018-10-05-正则表达式.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/计算机技能/2019-02-02-AI拍照识别之汽车指示灯识别.md" />
     <entry file="file://$PROJECT_DIR$/_data/languages/zh-Hans.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
@@ -639,13 +667,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/Android/2019-01-25-Android开发-Retrofit2入门.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/Okhttp3入门.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Android/Retrofit2入门.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Android/2018-02-02-Android开发-疑难杂症.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -744,6 +765,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Activity入门与使用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -752,10 +789,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md">
+    <entry file="file://$PROJECT_DIR$/_posts/Android/2017-10-12-Android开发-四大组件之Activity入门.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="69">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之BroadcastReceiver入门.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Service入门.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Android/Android开发-四大组件之ContentProvider入门.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
