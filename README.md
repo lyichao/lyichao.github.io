@@ -41,7 +41,6 @@
     - [《Head First Java》速记](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2017/10/14/Java%E5%AD%A6%E4%B9%A0-Head-First-Java-%E9%80%9F%E8%AE%B0/)
   - JavaScript
     - [JavaScript基础](https://lyichao.github.io/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/2019/03/10/JavaScript%E5%9F%BA%E7%A1%80)
-  - Python（待更新）
 - [技能扩展](https://lyichao.github.io/category/#/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD)
   - Git
     - [GIt常用命令](https://lyichao.github.io/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E8%83%BD/2017/11/11/GIt%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/)
