@@ -517,3 +517,22 @@ updated: 2019-02-20 00:00:00
 >
 >
 
+---
+
+>## BUG描述
+>
+>打包时出现
+>
+>```
+>Unable to process incoming event 'ProgressComplete ' (ProgressCompleteEvent)
+>```
+>
+>### 解决办法
+>
+>>到项目根目录/android下执行以下命令即可：
+>>
+>>```
+>>gradlew.bat assembleRelease --console plain
+>>```
+>
+>
