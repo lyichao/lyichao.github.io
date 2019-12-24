@@ -1,5 +1,5 @@
 ---
-title: Android开发-四大组件之Activity入门
+title: 四大组件之Activity入门
 description: <center>Android四大神兽之一啊~快来围观吃瓜</center>
 categories:
  - Android

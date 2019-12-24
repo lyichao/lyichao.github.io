@@ -1,5 +1,5 @@
 ---
-title: Android开发-App和网页互相跳转
+title: App和网页互相跳转
 description: <center>很常见，记录一下吧</center>
 categories:
  - Android

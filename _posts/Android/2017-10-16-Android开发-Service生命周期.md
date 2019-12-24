@@ -1,5 +1,5 @@
 ---
-title: Android开发-Service生命周期
+title: Service生命周期
 description: <center>这个也比较知识重要，继续记录！</center>
 categories:
  - Android

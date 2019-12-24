@@ -1,5 +1,5 @@
 ---
-title: Android开发-RxJava框架学习记录
+title: RxJava框架学习记录
 description: <center>记一次RxJava框架完整学习笔记</center>
 categories:
  - Android

@@ -1,5 +1,5 @@
 ---
-title: Android开发-GridView实现隔行(奇偶数)换颜色功能
+title: GridView实现隔行(奇偶数)换颜色功能
 description: <center>简单记录一次Android布局</center>
 categories:
  - Android

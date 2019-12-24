@@ -1,5 +1,5 @@
 ---
-title: Android开发-Activity启动模式
+title: Activity启动模式
 description: <center>这个也比较知识重要，记录！</center>
 categories:
  - Android
