@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-【转载】常用布局 介绍 &amp; 使用（附 属性查询）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-10-Android开发-自问自答.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-12-Android开发-四大组件之Activity入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-12-Android开发-四大组件之Activity入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-13-Android开发-Activity启动模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-13-Android开发-Activity启动模式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-13-Android开发-四大组件之BroadcastReceiver入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-13-Android开发-四大组件之BroadcastReceiver入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2017-10-16-Android开发-Service生命周期.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2017-10-16-Android开发-Service生命周期.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-02-02-Android开发-疑难杂症.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-02-02-Android开发-疑难杂症.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-04-26-Android开发-RxJava框架学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-04-26-Android开发-RxJava框架学习记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android开发-GridView实现隔行(奇偶数)换颜色功能.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android开发-GridView实现隔行(奇偶数)换颜色功能.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android开发-利用自定义视图给linearLayout设置下划线.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-12-12-Android开发-利用自定义视图给linearLayout设置下划线.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2018-12-15-Android开发-App和网页互相跳转.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2018-12-15-Android开发-App和网页互相跳转.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-21-Android开发-MVP框架学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-21-Android开发-MVP框架学习记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-25-Android开发-Retrofit2学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-25-Android开发-Retrofit2学习记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/2019-01-26-Android开发-Dagger2学习记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-Service生命周期.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/Android开发-Service生命周期.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-动画入门与使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/Android开发-动画入门与使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之ContentProvider入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之ContentProvider入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Service入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/Android开发-四大组件之Service入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/Okhttp3学习记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/Okhttp3学习记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Android/自定义控件之组合控件.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Android/自定义控件之组合控件.md" afterDir="false" />
-    </list>
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -382,7 +360,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="454" y="130" width="974" height="1057" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Resources Explorer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4679487" />
