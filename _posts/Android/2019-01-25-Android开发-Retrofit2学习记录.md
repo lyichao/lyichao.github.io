@@ -4,7 +4,7 @@ description: <center>记录Retrofit2的基本认知与使用</center>
 categories:
  - Android
 tags: 框架
-updated: 2019-01-25 13:25:22
+updated: 2019-05-25 13:25:22
 ---
 
 鸿洋写的`Retrofit`文章已经很全面了，感觉没必要自己再去做记录（偷个懒^_^）
