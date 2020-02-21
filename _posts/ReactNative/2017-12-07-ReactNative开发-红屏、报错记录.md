@@ -43,7 +43,11 @@ updated: 2019-02-20 00:00:00
 >
 > ### 解决办法
 >
-> > 待补充
+> > 问题原因：都是墙惹的祸~~~
+> >
+> > 1.修改android根目录下的build.gradle。把`buildscript`和`allprojects`下的`google()`和`jcenter()`注释掉，添加阿里云镜像`maven{ url 'http://maven.aliyun.com/nexus/content/groups/public'}`
+> >
+> > P.s：如果某个组件也报这个错误，就到组件的android目录下同样处理
 
 
 
