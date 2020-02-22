@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter知识相关概念.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter开发-入门.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,19 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md">
+        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter知识相关概念.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="299">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter开发-入门.md">
+        <entry file="file://$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="264">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -137,9 +141,9 @@
         <option value="$PROJECT_DIR$/_posts/Android/自定义控件之组合控件.md" />
         <option value="$PROJECT_DIR$/_posts/Android/2019-12-25-Android开发-自定义控件之组合控件.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2018-12-07-ReactNative开发-集成极光推送jpush-react-native.md" />
-        <option value="$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2020-02-19-ReactNative开发-class &amp; function component 的区别.md" />
         <option value="$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter开发-入门.md" />
+        <option value="$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md" />
       </list>
     </option>
   </component>
@@ -179,7 +183,7 @@
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lyichao.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="ReactNative" type="462c0819:PsiDirectoryNode" />
+              <item name="Flutter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lyichao.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/ReactNative" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/Flutter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -206,11 +210,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lyichao.github.io\_posts\Flutter" />
       <recent name="G:\lyichao.github.io\_posts\ReactNative" />
       <recent name="G:\lyichao.github.io\_posts\Android" />
       <recent name="$PROJECT_DIR$/_posts/风云录" />
       <recent name="$PROJECT_DIR$/_posts/计算机技能" />
-      <recent name="$PROJECT_DIR$/_posts/ReactNative/基础知识" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,7 +350,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32832617" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32832617" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32832617" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -606,17 +610,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md">
+    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter知识相关概念.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="299">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/ReactNative/2020-02-22-Flutter开发-入门.md">
+    <entry file="file://$PROJECT_DIR$/_posts/Flutter/2020-02-22-Flutter知识相关概念.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="264">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
