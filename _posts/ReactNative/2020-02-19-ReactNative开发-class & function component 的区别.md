@@ -1,6 +1,6 @@
 ---
 title: ReactNative开发-class & function component 的区别
-description:智慧 +1 成长值 +100
+description:<center>智慧 +1 成长值 +100</center>
 categories:
  - ReactNative
 tags: 基础知识
