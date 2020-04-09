@@ -540,3 +540,35 @@ updated: 2019-02-20 00:00:00
 >>```
 >
 >
+
+---
+
+>## BUG描述
+>
+>在执行pod install 命令到Installing glog (0.3.5)时报错，如下：
+>
+>```
+>Installing glog (0.3.5)
+>[!] /bin/bash -c
+>set -e
+>#!/bin/bash
+># Copyright (c) Facebook, Inc. and its affiliates.
+>#
+># This source code is licensed under the MIT license found in the
+># LICENSE file in the root directory of this source tree.
+>
+>set -e
+>.........
+>configure: error: C compiler cannot create executables
+>See `config.log' for more details
+>```
+>
+>### 解决办法
+>
+>>未选择指定的Xcode:
+>>
+>>```
+>>sudo xcode-select --switch /Applications/Xcode.app
+>>```
+>
+>
