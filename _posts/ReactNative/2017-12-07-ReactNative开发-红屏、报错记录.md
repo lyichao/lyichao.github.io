@@ -572,3 +572,57 @@ updated: 2019-02-20 00:00:00
 >>```
 >
 >
+>
+---
+
+>## BUG描述
+>
+>Android打包App时出现错误，如下：
+>
+>```
+>Expiring Daemon because JVM heap space is exhausted
+>```
+>
+>### 解决办法
+>
+>>原因： jvm 默认可分配的堆内存不够
+>>
+>>在 **gradle.properties** 文件中添加
+>>
+>>```
+>>org.gradle.jvmargs=-Xmx4096m -XX:MaxPermSize=512m
+>>```
+>
+>
+---
+
+>## BUG描述
+>
+>Android打包App后运行App时出现错误，如下：
+>
+>```
+>TypeError: console.assert is not a function.
+>```
+>
+>### 解决办法
+>
+>>原因： 函数未定义。https://github.com/facebook/react-native/issues/26007
+>>
+>>添加如下代码即可
+>>
+>>```javascript
+>>if (!__DEV__) {
+>>    global.console = {
+>>        info: () => {},
+>>        log: () => {},
+>>        assert: () => {},
+>>        warn: () => {},
+>>        debug: () => {},
+>>        error: () => {},
+>>        time: () => {},
+>>        timeEnd: () => {},
+>>    };
+>>}  
+>>```
+>
+>
