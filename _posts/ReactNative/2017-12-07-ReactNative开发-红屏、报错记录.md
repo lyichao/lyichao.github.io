@@ -4,7 +4,7 @@ description: <center>记录在使用ReactNative日常开发中出现的红屏、
 categories:
  - ReactNative
 tags: BUG/问题
-updated: 2019-02-20 00:00:00
+updated: 2020-04-20 00:00:00
 ---
 
 > ## BUG描述
@@ -623,6 +623,25 @@ updated: 2019-02-20 00:00:00
 >>        timeEnd: () => {},
 >>    };
 >>}  
+>>```
+>
+>
+---
+
+>## BUG描述
+>
+>ios运行`pod install`时出现如下问题：
+>
+>```
+>CDN: trunk URL couldn't be downloaded
+>```
+>
+>### 解决办法
+>
+>>原因： 网络问题，到host文件下添加如下代码即可
+>>
+>>```
+>>199.232.4.133 raw.githubusercontent.com
 >>```
 >
 >

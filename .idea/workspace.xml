@@ -37,7 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="更新文章">
+    <list default="true" id="4dc1b864-1034-4e56-b31b-3d0cc2b26005" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/ReactNative/2017-12-07-ReactNative开发-红屏、报错记录.md" afterDir="false" />
     </list>
@@ -198,7 +198,9 @@
       <workItem from="1586415753483" duration="910000" />
       <workItem from="1586417630066" duration="200000" />
       <workItem from="1587007223052" duration="474000" />
-      <workItem from="1587352492179" duration="257000" />
+      <workItem from="1587352492179" duration="276000" />
+      <workItem from="1587360786777" duration="1000" />
+      <workItem from="1587365732466" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1574864636603</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586417573519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新文章">
+      <created>1587352834598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587352834598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -261,13 +270,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="更新文章" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="286" y="324" key="CommitChangelistDialog2" timestamp="1587352790144">
+    <state x="286" y="324" key="CommitChangelistDialog2" timestamp="1587352834457">
       <screen x="78" y="23" width="2482" height="1417" />
     </state>
-    <state x="286" y="324" key="CommitChangelistDialog2/78.23.2482.1417@78.23.2482.1417" timestamp="1587352790144" />
-    <state x="920" y="471" key="Vcs.Push.Dialog.v2" timestamp="1586417590530">
-      <screen x="80" y="23" width="2480" height="1417" />
+    <state x="286" y="324" key="CommitChangelistDialog2/78.23.2482.1417@78.23.2482.1417" timestamp="1587352834457" />
+    <state x="919" y="471" key="Vcs.Push.Dialog.v2" timestamp="1587352838555">
+      <screen x="78" y="23" width="2482" height="1417" />
     </state>
+    <state x="919" y="471" key="Vcs.Push.Dialog.v2/78.23.2482.1417@78.23.2482.1417" timestamp="1587352838555" />
     <state x="920" y="471" key="Vcs.Push.Dialog.v2/80.23.2480.1417@80.23.2480.1417" timestamp="1586417590530" />
   </component>
 </project>
