@@ -4,7 +4,7 @@ description: <center>记录在使用ReactNative日常开发中出现的红屏、
 categories:
  - ReactNative
 tags: BUG/问题
-updated: 2020-04-20 00:00:00
+updated: 2020-06-09 00:00:00
 ---
 
 > ## BUG描述
@@ -645,3 +645,128 @@ updated: 2020-04-20 00:00:00
 >>```
 >
 >
+
+
+
+---
+
+
+
+>## BUG描述
+>
+>运行android时出现如下问题：
+>
+>```
+>Execution failed for task ':app:installDebug'.
+>
+>> com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: INSTALL_FAILED_UPDATE_INCOMPATIBLE: Package com.veminar signatures do not match previously installed version; ignoring!
+>```
+>
+>### 解决办法
+>
+>>原因： packname包名冲突，打开android studio重新编译即可
+>>
+>
+>
+
+
+
+---
+
+
+
+>## BUG描述
+>
+>运行IOS时出现如下问题：
+>
+>```
+>Unknown argument type"attribute_inmethod-irctappstate
+>getcurrentappstate: error: Extend
+>Rctconvert to support this type.
+>[Rctmodulemethod processmethodsignature]
+>Rctmodulemethod, mm: 376
+>-[Rctmodulemethod invokewithbridge: module: arguments: ]
+>```
+>
+>### 解决办法
+>
+>>原因： 原因是`Xcode11(iOS13)`中对未使用的接口选择器的参数`unused`字符串属性进行了更改成了`__unused__`，导致`ReactNative`动态收集接口时不能把声明的接口进行导入，运行时无法查找到该接口导致的错误。
+>>
+>>解决办法：
+>>
+>>找到文件`RCTModuleMethod.mm`，路径：`node_modules/react-native/React/Base/RCTModuleMethod.mm`
+>> (原文文件名称为`RCTModuleMethod.mm.mm`，但是我的项目中文件名为`RCTModuleMethod.m`)；
+>> 在`RCTParseUnused`接口中新增新的解析字段，新增`RCTReadString(input, "__attribute__((__unused__))")`代码，如下：
+>>
+>>```cpp
+>>static BOOL RCTParseUnused(const char **input)
+>>{
+>>  return RCTReadString(input, "__unused") ||
+>>         RCTReadString(input, "__attribute__((__unused__))") || 
+>>         RCTReadString(input, "__attribute__((unused))");
+>>}
+>>```
+>>
+>>
+>
+>
+
+
+
+---
+
+
+
+>## BUG描述
+>
+>运行Android时出现如下问题：
+>
+>```
+>* What went wrong:
+>Execution failed for task ':react-native-fetch-blob:processReleaseResources'.
+>> com.android.ide.common.process.ProcessException: Failed to execute aapt
+>
+>```
+>
+>或
+>
+>```
+>java.io.IOException: Cannot run program "/Users/vian_imac/Library/Android/sdk/build-tools/23.0.1/aapt": error=86, Bad CPU type in executable
+>```
+>
+>
+>
+>### 解决办法
+>
+>>原因： 项目的gradle版本升级了导致第三方插件无法打包。
+>>
+>>解决办法：
+>>
+>>从node_modules文件夹中找到 react-native-fetch-blob/android/build.gradle ，并修改如下部分，：
+>>
+>>```cpp
+>>compileSdkVersion 23
+>>buildToolsVersion "23.0.3"
+>>defaultConfig {
+>>minSdkVersion 16
+>>targetSdkVersion 23
+>>versionCode 1
+>>versionName "1.0"
+>>}
+>>
+>>改为
+>>
+>>compileSdkVersion 26
+>>buildToolsVersion "26.0.3"
+>>defaultConfig {
+>>minSdkVersion 16
+>>targetSdkVersion 26
+>>versionCode 1
+>>versionName "1.0"
+>>}
+>>```
+>>
+>>
+>
+>
+
